@@ -5,121 +5,80 @@
 
 ---
 
-### **Preface**
-
--   The Institutional Problem: Why Nations Still Fail
--   From Extraction to Flow
--   This Work as Both Product and Proof
-    
+### **Preface: This Is Not a Book**
+-   Signal-first framing of the work
+-   Why this is a recursive deployment lab, not a traditional thesis
 
 ---
 
-### **Chapter 1 – Introduction**
-
--   1.1 Background and Motivation
--   1.2 Research Objectives
--   1.3 Research Questions
--   1.4 Scope and Limitations
--   1.5 Contributions of the Study
--   1.6 Structure of the Dissertation
-    
+### **Chapter 1 – Collapse Signals and Institutional Blind Spots**
+-   1.1 Introduction to Real-World Failures
+-   1.2 Pattern 1–25 (Thai + Global) Overview
+-   1.3 Method of Pattern Harvesting
+-   1.4 Why Theory Must Follow Field
 
 ---
 
-### **Chapter 2 – Literature Review**
-
--   2.1 Theories of Institutional Failure
-    -   2.1.1 Extractive vs. Inclusive Institutions (Acemoglu & Robinson)
-    -   2.1.2 Elite Capture and Technological Inequality (Power & Progress)
--   2.2 Ostrom and Polycentric Governance
--   2.3 Digital Public Infrastructure and E-Government
--   2.4 Limitations of Traditional Digital Transformation Models
--   2.5 Gaps Identified in Current Research
-    
+### **Chapter 2 – Failure Ontology: Classifying Collapse (v4.3)**
+-   2.1 Rationale for Ontology-First Design
+-   2.2 The 11 MECE Institutional Failure Classes
+-   2.3 Classifier Lines and Audit Process
+-   2.4 Mapping Patterns to Classes
 
 ---
 
-### **Chapter 3 – Conceptual Framework: Digital Native Institutions (DNIs)**
-
--   3.1 Defining DNIs
--   3.2 Foundational Principles:
-    -   Digital Identity
-    -   Digital Documents
-    -   Digital Money
--   3.3 Web 4 as Architectural Layer
--   3.4 Excel as Programming Interface
--   3.5 Comparison with Traditional Institutions
--   3.6 Theoretical Alignment with Ostrom’s Principles
--   3.7 Hypotheses and Evaluation Metrics
-    
+### **Chapter 3 – Field–Theory Crosswalk**
+-   3.1 Academic Literature for Each Failure Class
+-   3.2 Gaps, Misalignments, and Theory Lag
+-   3.3 Implications for Governance Science
 
 ---
 
-### **Chapter 4 – Research Methodology**
-
--   4.1 Research Design
--   4.2 Case Selection Criteria
--   4.3 Data Collection Methods
-    -   System Logs
-    -   Stakeholder Interviews
-    -   Before/After Metrics
--   4.4 Data Analysis Framework
--   4.5 Ethical Considerations
-    
+### **Chapter 4 – Digital Native Institutions (DNIs)**
+-   4.1 Emergence of DNI from Pattern Response
+-   4.2 Foundational Stack: ID, Docs, Money
+-   4.3 Web 4 and Non-Blockchain Infrastructure
+-   4.4 Contrast with Traditional Institutions
+-   4.5 SSM3 and Programmable Trust
 
 ---
 
-### **Chapter 5 – Case Studies: Live Deployment of DNIs**
-
--   5.1 Overview of Participating Organizations
--   5.2 Deployment Architecture
--   5.3 User-Built Forms and Workflow Analysis
--   5.4 Data Visibility and Traceability Impact
--   5.5 Speed, Cost, and Friction Reduction Metrics
--   5.6 Stakeholder Interviews (Client Perspectives)
--   5.7 System Observations and Emergent Behaviors
-    
+### **Chapter 5 – Live Deployment Cases**
+-   5.1 Case: Chula Thesis Protocol Infrastructure
+-   5.2 Case: Eveandboy e-Procurement
+-   5.3 Case: TrustMesh Legal Cert Layer
+-   5.4 System Diagrams and Screenshots
+-   5.5 Before–After Analysis and User Feedback
 
 ---
 
-### **Chapter 6 – Comparative Evaluation**
-
--   6.1 Against Traditional Digitization Projects
--   6.2 Against Institutional Theory Criteria
--   6.3 Against Public Sector Modernization Goals
--   6.4 Against Polycentric Governance Principles
--   6.5 Summary Table of Outcomes
-    
+### **Chapter 6 – Canonization Engine**
+-   6.1 From Failure → Protocol → Canon
+-   6.2 Canon Library Examples
+-   6.3 Institutional Pattern Language Format
+-   6.4 Reusability and Forkability Metrics
 
 ---
 
-### **Chapter 7 – Discussion**
-
--   7.1 How DNIs Resolve Structural Latency
--   7.2 The Disappearance of Bureaucracy
--   7.3 Participatory System Design by Non-Programmers
--   7.4 Implications for Public Administration, Corporate Governance, and Development
--   7.5 Limitations and Observed Frictions
-    
+### **Chapter 7 – Implications and Fractality**
+-   7.1 Thai Policy and Reform Gaps
+-   7.2 Global Collapse Readiness
+-   7.3 Fractal Institutional Networks
+-   7.4 From Reform to Re-foundation
 
 ---
 
-### **Chapter 8 – Conclusion and Future Work**
-
--   8.1 Summary of Findings
--   8.2 Contributions to Theory and Practice
--   8.3 Recommendations for Policymakers
--   8.4 The Path to Fully Autonomous Institutions
--   8.5 Future Research Directions
--   8.6 A Note on Civilization Architecture
-    
+### **Chapter 8 – Conclusion: The Recursive Upgrade Path**
+-   8.1 What We Learned
+-   8.2 What Others Can Fork
+-   8.3 Future Research and Real-World Iteration
+-   8.4 Closing Invocation
 
 ---
 
 ### **Appendices**
-
--   A. System Screenshots and Process Diagrams
--   B. Client Feedback Transcripts
--   C. Technical Architecture
--   D. Sample User-Built Forms
--   E. Glossary of Terms (Web 4, DNI, Flow, etc.)
+-   A. Screenshots, Forms, Workflows
+-   B. Code Architecture and Tech Stack
+-   C. Stakeholder Interview Transcripts
+-   D. Glossary (DNI, Flow, Canon, etc.)
+-   E. Timeline of Development
