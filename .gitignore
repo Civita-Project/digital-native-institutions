@@ -1,0 +1,58 @@
+# ===========================
+# Core OS and Editor Files
+# ===========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ===========================
+# Python / Node / Toolchain Artifacts
+# ===========================
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+*.log
+
+# ===========================
+# PDF / Compiled Artifacts
+# (generated dissertation outputs)
+# ===========================
+*.pdf
+*.aux
+*.out
+*.toc
+*.bbl
+*.blg
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+
+# ===========================
+# Temporary working files
+# ===========================
+*.tmp
+*.bak
+*.old
+
+# ===========================
+# Local-only content (private data)
+# ===========================
+/field-data/anonymized_interviews/raw/
+/field-data/private_notes/
+/field-data/raw_sources/
+
+# ===========================
+# Generated diagrams or exports
+# ===========================
+/implementation/diagrams/generated/
+/implementation/state_transition_models/generated/
+
+# ===========================
+# Do not ignore these (explicit)
+# ===========================
+!.gitkeep
