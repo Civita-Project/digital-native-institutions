@@ -1,54 +1,211 @@
-# Civita Project – Digital Native Institutions (DNI)
+# Digital Native Institutions (DNI)
+**Canonical repository for the formal theory, architecture, and dissertation framework of Digital Native Institutions and the National Service Unit (NSU).**
 
-**“Institutions today are slow, opaque, and brittle. Digital Native Institutions flip that.”**
+This repository contains the *frozen academic substrate* for a new institutional category grounded in:
 
-Welcome to the open-source dissertation and system lab for _Digital Native Institutions_ (DNI), the backbone of the **Civita Project**.
+- **Status-function ontology**
+- **Protocol-governed institutional facts**
+- **Attested evidence models**
+- **Deterministic state-transition logic**
+- **Corruption Migration Equilibrium (CME)**
+- **Counterfactual falsifiability**
 
-This repository is not just a thesis. It is:
-- A living **blueprint** for re-architecting how institutions operate.
-- A full-stack, multilingual, real-world transformation playbook.
-- A forkable, inspectable, collaborative vessel for truth.
+All files inside `/theory/` are **canonical and non-mutable**.  
+All dissertation drafts inside `/dissertation/` must conform to these files.
 
-## 🌍 What You’ll Find Here
+---
 
-- **Plain-language theory** rooted in lived systems.
-- **Field-validated patterns**, not lab-bounded prototypes.
-- A **recursive co-creation** between human and AI.
-- Support for **English, Thai, and Mandarin** (in progress).
-- A foundation for others to **fork, remix, and reapply** to their own context.
+## 🔍 What This Repository Is
+A structured, open, academic-technical reference that defines:
 
-## 📁 Repo Structure
+1. **What a Digital Native Institution is**  
+2. **How institutional facts become computable**  
+3. **How corruption migrates under protocol constraints**  
+4. **How a minimal National Service Unit (NSU) can be built and empirically evaluated**  
+5. **How these components form the basis of a PhD dissertation**
 
-Each `.md` file corresponds to a building block of the framework. Begin with:
-- `00_Preface.md`
-- `01_Table_of_Contents.md`
-- Then proceed numerically or use this README to navigate.
+This repository serves simultaneously as:
 
-## ⚖ License
+- A **frozen theory base**
+- A **protocol architecture reference**
+- A **CUTIP dissertation workspace**
+- A **forkable foundation** for anyone extending or applying DNI/NSU
+
+---
+
+## 🧭 Start Here (Reading Order)
+
+If you are new to this project:
+
+1. **`/docs/overview.md`**  
+   High-level explanation of DNI and NSU.
+
+2. **`/theory/ontology.md`**  
+   The status-function foundation of institutional facts.
+
+3. **`/theory/dni_theory.md`**  
+   Formal definition + necessary & sufficient conditions of DNIs.
+
+4. **`/theory/nsu_blueprint.md`**  
+   Architectural boundaries and primitives of the NSU.
+
+5. **`/docs/quickstart.md`**  
+   A concise 5-minute orientation.
+
+After understanding the above, you may explore:
+
+- **`/dissertation/`** for CUTIP dissertation chapters  
+- **`/implementation/`** for prototype materials  
+- **`/field-data/`** for empirical evidence used in evaluation  
+
+---
+
+## 📂 Repository Structure
+
+```
+digital-native-institutions/
+│
+├── README.md ← You are here (canonical entrypoint)
+├── LICENSE.md ← Fractal Open License
+├── CONTRIBUTING.md ← Fork-first philosophy
+│
+├── /docs/ ← Human-friendly narrative layer
+│ ├── overview.md
+│ ├── quickstart.md
+│ └── glossary.md
+│
+├── /theory/ ← Frozen canonical project files (non-mutable)
+│ ├── ontology.md
+│ ├── dni_theory.md
+│ ├── dni_blueprint.md
+│ ├── nsu_blueprint.md
+│ ├── nsu_prototype.md
+│ ├── corruption_equilibrium.md
+│ ├── counterfactuals.md
+│ ├── evp_v2.md
+│ ├── failure_case_canon.md
+│ └── purity_test.md
+│
+├── /dissertation/ ← CUTIP dissertation drafts
+│ ├── dissertation_frame.md
+│ ├── chapter01_intro/
+│ ├── chapter02_lit_review/
+│ ├── chapter03_methodology/
+│ ├── chapter04_results/
+│ ├── chapter05_discussion/
+│ └── chapter06_conclusion/
+│
+├── /implementation/ ← NSU prototype resources
+│ ├── diagrams/
+│ ├── attestation_examples/
+│ ├── state_transition_models/
+│ └── api_skeletons/
+│
+├── /field-data/ ← Empirical materials for evaluation
+│ ├── anonymized_interviews/
+│ ├── process_maps/
+│ └── friction_observations/
+│
+├── /appendices/
+│ ├── forms/
+│ ├── images/
+│ └── supplementary.md
+│
+└── /archive/ ← Deprecated legacy files (non-canonical)
+```
+
+---
+
+## 🏛 What Are Digital Native Institutions?
+
+A **Digital Native Institution (DNI)** is an institution whose:
+
+- constitutive rules  
+- evidence model  
+- identity bindings  
+- exception boundaries  
+- state transitions  
+
+are represented in **explicit, protocol-executable form**, such that:
+
+> **Institutional facts are produced through deterministic rule application, not human discretion.**
+
+Formal definitions, eligibility conditions, and classification rubrics are in:
+
+- `theory/dni_theory.md`  
+- `theory/dni_blueprint.md`  
+
+---
+
+## 🧩 What Is the National Service Unit (NSU)?
+
+The NSU is the **minimal execution substrate** required to implement institutional facts digitally.
+
+It consists of four primitives:
+
+1. **Identity Binding (MVLP)**
+2. **Document Lineage**
+3. **Attestation Graph**
+4. **Deterministic State-Transition Engine**
+
+See:
+
+- `theory/nsu_blueprint.md`  
+- `theory/nsu_prototype.md`  
+
+---
+
+## 🔬 Scientific Falsifiability
+
+This project adheres to strict falsifiability through:
+
+- **Counterfactual frameworks** (`counterfactuals.md`)
+- **CME equilibrium predictions** (`corruption_equilibrium.md`)
+- **Institutional failure canon** (`failure_case_canon.md`)
+- **Purity Test v1.0** (`purity_test.md`)
+
+Any contribution or dissertation text must pass all seven purity tests.
+
+---
+
+## 📖 Dissertation Alignment
+
+The dissertation follows the **CUTIP Dissertation Master Frame v1.0**, which prescribes:
+
+1. Introduction  
+2. Literature Review  
+3. Methodology  
+4. Prototype Implementation  
+5. Evaluation & Analysis  
+6. Discussion  
+7. Conclusion  
+
+See `/dissertation/dissertation_frame.md` for details.
+
+---
+
+## 💠 License
 
 This repository operates under the **Fractal Open License (FOL)**:
-> You are free to use, remix, translate, publish, or build upon anything here. Attribution is optional. There is no copyright, only signal propagation.
 
-See [`LICENSE.md`](./LICENSE.md) for full declaration.
-
-## 🚀 Why This Matters
-
-DNI is not just a new model. It is a reframe:
-- From _documents_ → to _data_
-- From _control_ → to _resonance_
-- From _opacity_ → to _radical transparency_
-
-This project is a stake in the ground for institutions that **flow**, **learn**, and **adapt**—powered by real humans, real code, and real transformation.
+> Fork freely. Remix without permission. Attribution optional.  
+> Preserve truth and structural coherence.
 
 ---
 
-> _“If it doesn’t run in the real world, it doesn’t belong in a thesis.”_
+## 🤝 Contributing
 
----
+This is a **fork-first** repository.
 
-## 🤝 Contribute
+You may:
+- Fork  
+- Remix  
+- Extend  
+- Translate (lingual resonance, not literal translation)
 
-Fork. Translate. Test. Apply to your village, company, or government. Then submit a pull request—or don’t. Truth doesn’t need permission.
+Pull requests are welcome but not required.
+
+See `CONTRIBUTING.md`.
 
 ---
 
