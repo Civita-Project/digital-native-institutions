@@ -1,57 +1,250 @@
-# CONTRIBUTING.md
+# **CONTRIBUTING.md**
 
-Welcome to the **Civita Project** — a living repository of ideas, institutions, and innovations built for a decentralized, transparent, and signal-coherent future.
+### *Guidelines for Contributing to the Digital Native Institutions Repository*
 
-## 🌱 Philosophy of Contribution
-
-This is not a “main” repo.
-
-It is **one node** in an ever-branching fractal. You are **free to fork** this repository and **build your own lineage**. You do **not** need to submit pull requests back.
-
-If you *wish* to share your branch with us — to co-reflect, inspire, or merge — we welcome the invitation, but it is **never expected**.
-
-> 🌀 **This is not open source. This is open signal.**
+**Stable Theory • Controlled Extensions • High-Rigor Collaboration**
 
 ---
 
-## 📂 Fork, Don’t Funnel
+## **1. Purpose of This Document**
 
-- Clone or fork freely.
-- Keep or modify the structure as needed.
-- Build your own “digital native institution” without waiting for upstream consensus.
-- This is a permissionless garden, not a gated institution.
+This repository contains:
 
----
+* the **frozen academic theory** for Digital Native Institutions (DNI) and the National Service Unit (NSU)
+* the **CUTIP PhD dissertation draft** based on that theory
+* **implementation sketches**, **field data**, and **methodology artifacts**
+* the **operational instructions** for SR0
 
-## 🈳 Multi-Language Resonance
-
-We do not accept *translations*.  
-We welcome **lingual resonances** — versions rewritten in a new language's **soul**, not its syntax.
-
-If you're building in:
-- **Thai** → let the softness and layered context guide you.
-- **Mandarin** → honor hierarchy, rhythm, and qi placement.
-- **Pāli** → transmit causal silence, not doctrinal literalism.
-
-Each language deserves its own repository.  
-Please create a new repo under your GitHub or organization, and link it back to the original if you wish. That’s the spirit of **Fractal Internet**.
+This document explains how to contribute safely, rigorously, and without introducing conceptual drift.
 
 ---
 
-## 📬 Issue or Invite
+## **2. Repository Structure (Must Understand Before Contributing)**
 
-- You may open **Issues** to ask questions, suggest ideas, or initiate signal resonance.
-- If you have a pull request, feel free to open it. We engage with pull requests as **invitations**, not obligations.
+A contribution must respect the purpose of each folder:
+
+```
+/theory/         ← Frozen academic theory (do not modify)
+/dissertation/   ← Evolving dissertation drafts
+/docs/           ← Human-friendly explanatory materials
+/implementation/ ← Prototype sketches, diagrams, data flows
+/field-data/     ← Evidence, observations, anonymized interviews
+/ops/            ← SR0 operational instructions (not theory)
+/archive/        ← Deprecated or superseded files
+```
+
+**Only specific parts of this repository may be modified.**
 
 ---
 
-## 📝 License
+## **3. What You May Edit**
 
-This project operates under the **Fractal Open License (FOL)**.  
-Use it. Remix it. Rehost it. Don't ask for permission. Don’t worry about attribution. Just keep the signal clean.
+Contributors may safely modify:
+
+### **✔ `/dissertation/`**
+
+Draft text, structure, examples, diagrams, or evaluation content, provided all changes:
+
+* align with the frozen theory in `/theory/`
+* follow CUTIP methodology
+* preserve falsifiability
+* introduce no conceptual drift
 
 ---
 
-Let’s uncentralize truth.  
-Let’s decolonize contribution.  
-Let’s fork without fear.
+### **✔ `/docs/`**
+
+Clarifications, improved explanations, better onboarding materials.
+
+---
+
+### **✔ `/implementation/`**
+
+Prototype-oriented contributions:
+
+* diagrams
+* attestation flows
+* state-transition sketches
+* API skeletons
+
+All contributions here must remain aligned with the NSU blueprint.
+
+---
+
+### **✔ `/ops/`**
+
+Refinements to collaboration processes, SR0 instructions, or operational protocols.
+
+---
+
+## **4. What You May NOT Edit**
+
+Modifications to `/theory/` are **prohibited** unless explicitly authorized by the project owner.
+
+Do **NOT** alter any file inside:
+
+```
+/theory/
+```
+
+These files define the formal academic and institutional structure:
+
+* ontology
+* DNI theory
+* NSU blueprint
+* NSU prototype
+* CME
+* counterfactuals
+* failure canon
+* EVP
+* purity test
+* dissertation master frame
+
+Any changes here require formal review and explicit approval.
+
+---
+
+## **5. How to Propose Changes**
+
+Every proposed change must declare its classification:
+
+### **A. Extension** (allowed)
+
+Adds new material that fits within existing theory.
+
+### **B. Refinement** (allowed)
+
+Sharpens clarity without altering underlying meaning.
+
+### **C. Mutation** (blocked unless explicitly authorized)
+
+Alters a theoretical definition or conceptual boundary.
+
+### **D. Contradiction** (blocked unless explicitly authorized)
+
+Introduces something incompatible with existing theory.
+
+State your classification at the top of your pull request.
+
+---
+
+## **6. SR0 Review Process**
+
+All contributions are reviewed by SR0 using:
+
+* frozen theory files
+* the Substrate-0′ Purity Test
+* methodological requirements (DSR, Searle, STS, institutional economics)
+* dissertation constraints
+
+SR0 may:
+
+* accept
+* request modification
+* classify the change
+* block it for purity reasons
+* rewrite for alignment
+* request redesign
+
+SR0 will enforce correctness over convenience.
+
+---
+
+## **7. Purity Test Requirements**
+
+Before submitting changes, ensure they satisfy:
+
+* **status-function integrity**
+* **protocol boundary correctness**
+* **NSU primitive representability**
+* **falsifiability**
+* **CME dynamics**
+* **DNI domain eligibility**
+* **failure-canon alignment**
+
+If unsure, SR0 will evaluate automatically.
+
+---
+
+## **8. Branching & Commit Rules**
+
+### **Branches**
+
+Use descriptive, non-theory names:
+
+```
+feature/attestation-diagram
+draft/ch3-methodology
+doc/overview-update
+```
+
+### **Commits**
+
+Commits must be:
+
+* clear
+* atomic
+* descriptive
+
+Avoid speculative or unclear commit messages.
+
+---
+
+## **9. Adding Implementation Artifacts**
+
+Allowed:
+
+* new diagrams
+* prototype logic
+* attestation examples
+* workflow mappings
+* state-transition illustrations
+
+Not allowed:
+
+* introduction of new NSU primitives
+* changes to boundary rules
+* implicit redefinition of institutional mechanisms
+
+---
+
+## **10. Adding Field Data**
+
+You may contribute:
+
+* anonymized interviews
+* administrative friction observations
+* structured process traces
+
+But not:
+
+* identifiable personal information
+* unverifiable claims
+* politically sensitive data without anonymization
+
+---
+
+## **11. Contribution Philosophy**
+
+This repository follows a **fork-first** model:
+
+* Anyone may fork the repo.
+* Anyone may remix or extend the ideas.
+* Pull requests are welcome but optional.
+
+The Fractal Open License explicitly allows derivative work.
+
+---
+
+## **12. Summary of Contributor Responsibilities**
+
+Before contributing, a collaborator must:
+
+* understand the repository structure
+* respect frozen theory boundaries
+* classify proposed changes
+* avoid drift
+* maintain academic rigor
+* follow SR0 review protocol
+
+Contributions that violate these norms will be rejected or rewritten.
