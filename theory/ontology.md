@@ -1,3 +1,9 @@
+## **ontology.md**
+
+### *Status-Function Ontology for Digital Institutions (v1.0)*
+
+---
+
 # **Status-Function Ontology for Digital Institutions**
 
 ### *Version 1.0 (Frozen Foundation)*
@@ -32,6 +38,17 @@ Where:
 ```
 Digital signature (X) counts as legal consent (Y) in Thai commercial law (C)
 ```
+**External Framework Constraint**
+All external theories, awards, and evaluative frameworks must be treated as **subordinate descriptive overlays** on top of the core ontology.
+
+* They may help interpret or communicate the ontology.
+* They may not redefine what counts as:
+
+  * brute fact
+  * institutional fact
+  * status-function
+  * context
+    Any conflict → ontology.md wins. 
 
 This is the **universal structure** for every institutional act in governance.
 
@@ -175,6 +192,8 @@ This file is the **bedrock**.
 This file is **frozen** for dissertation stability.
 Revisions only upon encountering structural contradictions.
 
+---
 
+**END OF FILE 1 — ontology.md**
 
 

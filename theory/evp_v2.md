@@ -1,3 +1,11 @@
+## **evp_v2.md**
+
+### *Elite Version Plan v2.0 (Incorporating All 4 AI Critiques)*
+
+*(This version is “frozen” as the canonical blueprint for the dissertation rewrite and defense strategy.)*
+
+---
+
 # **Elite Version Plan v2.0**
 
 **A fully corrected, substrate-grounded, academically rigorous redesign of NSU/DNI positioning and dissertation architecture.**
@@ -370,6 +378,12 @@ This makes the dissertation simultaneously:
 * academically approval-ready
 * World Bank–credible
 * practically useful for Thailand
+
+---
+
+# **EVP-X — Evaluator Independence**
+Evaluation standards (EVP) must not be distorted to satisfy external awards or fashions.  
+External rulers may be mapped into EVP only after Substrate-0′ alignment.
 
 ---
 

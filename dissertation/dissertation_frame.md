@@ -1,3 +1,11 @@
+## **CUTIP Dissertation Master Frame (v1.0)**
+
+**Status: Frozen as the canonical dissertation skeleton for all future drafting.
+All chapter scaffolding must conform to this file.
+All other project files plug into this frame.**
+
+---
+
 # **CUTIP Dissertation Master Frame (v1.0)**
 
 ### *Updated with Searlean Status Functions, DNI Theory v1.0, NSU Architecture, CME, Counterfactuals, and EVP v2.0.*
@@ -338,3 +346,18 @@ Counterfactuals determine:
 * what empirical patterns differentiate them
 * how to evaluate success/failure in the Thai context
 
+---
+
+**VIII. Award Pattern Integration (Presentation Layer Only)**
+Award extraction (Nobel, Turing, Gödel/Knuth, UNPSA, NAE) is used solely to:
+
+* align the *presentation* of the dissertation with recognizable excellence patterns,
+* structure narrative framing for different audiences.
+  It is **not** used to:
+* define the ontology of DNI/NSU,
+* shape the design of the theory or architecture,
+* override Substrate-0′ constraints.
+  The theoretical and architectural cores (ontology, DNI, NSU, CME, counterfactuals) remain primary.
+  Award rulers live strictly in the **meta-evaluation and diffusion layer**.
+
+---

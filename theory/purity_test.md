@@ -1,6 +1,6 @@
 # **SUBSTRATE-0′ PURITY TEST (v1.0)**
 
-*A canonical 7-test constraint for all NSU/DNI/Civita outputs.*
+*A canonical 8-test constraint for all NSU/DNI/Civita outputs.*
 
 A proposal, concept, architectural change, dissertation paragraph, or methodological decision is valid only if it passes **all seven tests** below. Failure of any test → **rejection or redesign**.
 
@@ -95,6 +95,17 @@ If it introduces identity overreach, exception denial, protocol absolutism, lega
 
 ---
 
+**TEST 8 — Evaluator & Framework Purity**
+Any evaluative framework (award ruler, rubric, scoring system, narrative lens) used to judge DNI/NSU/Civita must:
+
+1. Be explicitly mapped to Substrate-0′ ontology.
+2. Not introduce external ontologies (market, behavioral, governance, CS metaphysics) without reinterpretation.
+3. Not override or reshape status-functions, NSU primitives, or CME.
+4. Not determine theory design, only presentation and positioning.
+   If any evaluative framework violates these conditions → **FAIL**.
+
+---
+
 # **Verdict Rule**
 
 A proposal is **Substrate-0′ Pure** **iff**:
@@ -107,6 +118,7 @@ Test1 = PASS
 ∧ Test5 = PASS
 ∧ Test6 = PASS
 ∧ Test7 = PASS
+∧ Test8 = PASS
 ```
 
 Else → **INVALID — must be redesigned or rejected.**

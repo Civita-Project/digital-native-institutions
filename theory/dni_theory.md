@@ -1,3 +1,9 @@
+## **dni_theory.md**
+
+### *Digital Native Institutions: A Formal, Falsifiable Theory (v1.0)*
+
+---
+
 # **Digital Native Institutions: A Formal, Falsifiable Theory**
 
 ### *Version 1.0 — Frozen Core Theory*
@@ -28,6 +34,17 @@ A **Digital Native Institution** is:
 
 DNI ≠ digital transformation.
 DNI = new institutional **form**.
+
+**Paradigm Boundary & Novelty**
+DNI is not an evolution of:
+
+* digital government
+* DPI (Aadhaar, SingPass, etc.)
+* blockchain / DAO governance
+* classic institutional economics
+  It is a **new institutional category**: institutions whose constitutive rules are executable as protocol-governed state transitions.
+  External frameworks (including awards) may describe DNI, but they may not reframe DNI as merely “better digital government.”
+
 
 ---
 

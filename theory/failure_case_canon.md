@@ -1,3 +1,11 @@
+## **failure_case_canon.md**
+
+### *Failure Case Canon for Protocol-Based Governance (v1.0)*
+
+*(Frozen as core reference for DNI theory, NSU design, EVP v2.0, and Chapter 2/3 literature integration.)*
+
+---
+
 # **Failure Case Canon v1.0**
 
 **Comparative Failure Modes • Institutional Drift • Protocol Limits • Extracted Design Principles**
@@ -257,6 +265,21 @@ If NSU works in Thailand,
 it will work anywhere.
 
 This becomes the thesis’ strongest empirical claim.
+
+
+**7.9 Principle 9 — Evaluator-Driven Epistemic Drift**
+A new failure mode:
+* external evaluative frameworks (awards, rankings, donor metrics, peer review fashions) subtly reshape system design to satisfy them,
+* rather than the system being anchored to its own institutional ontology and objectives.
+
+Symptoms:
+* mechanisms tuned to “sound Nobel-like / Turing-like / governance-fashionable”
+* rhetorical mimicry of dominant disciplines
+* design choices justified by prestige, not institutional necessity
+
+NSU/DNI must treat all evaluators as **downstream** from Substrate-0′.
+Any sign of evaluator-driven design is a canonized failure mode.
+
 
 ---
 
