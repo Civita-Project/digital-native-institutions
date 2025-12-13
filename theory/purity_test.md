@@ -1,44 +1,78 @@
-# **SUBSTRATE-0′ PURITY TEST (v1.0)**
+# **SUBSTRATE-0′ PURITY TEST (v1.1)**
 
-*A canonical 8-test constraint for all NSU/DNI/Civita outputs.*
+*A canonical constraint system for all DNI / SFEU / Civita outputs.*
 
-A proposal, concept, architectural change, dissertation paragraph, or methodological decision is valid only if it passes **all seven tests** below. Failure of any test → **rejection or redesign**.
+A proposal, concept, architectural change, dissertation paragraph, methodological decision, or evaluative framework is **valid iff it passes all tests below**.
+
+Failure of **any single test** → **INVALID — redesign required**.
+
+This test suite has **epistemic priority** over:
+- EVP
+- award frameworks
+- dissertation presentation
+- narrative positioning
 
 ---
 
 ## **TEST 1 — Status-Function Integrity**
 
-**Does the idea preserve the mapping**
-`X counts as Y in context C`
-without conflating X, Y, or C?
-If it alters, expands, obscures, or misplaces the status-function structure → **FAIL**.
+Does the idea preserve the mapping:
 
-(Anchored to ontology.md)
+``
+X counts as Y in context C
+``
+
+
+without:
+- conflating X, Y, or C,
+- embedding interpretation into X or Y,
+- expanding C implicitly or post-hoc?
+
+If the status-function structure is altered, blurred, or inferred → **FAIL**.
+
+**Anchor:** `ontology.md`
 
 ---
 
 ## **TEST 2 — Protocol Boundary Correctness**
 
-Does the idea **maintain** the boundary:
-**protocol executes institutional facts; protocol does not interpret them**?
-If it introduces interpretation, moral reasoning, adjudication, or political judgment into NSU → **FAIL**.
+Does the idea strictly maintain the boundary:
 
-(Anchored to nsu_blueprint.md)
+> **Protocols execute institutional facts; they do not interpret meaning.**
+
+If the idea introduces into **SFEU execution**:
+- semantic interpretation,
+- moral reasoning,
+- adjudication,
+- political judgment,
+- AI discretion,
+
+→ **FAIL**.
+
+**Anchor:** `sfeu_blueprint.md`
 
 ---
 
-## **TEST 3 — Representational Sufficiency (NSU Primitives)**
+## **TEST 3 — Representational Sufficiency (SFEU Primitives)**
 
-Can the idea be represented using only:
+Can the idea be fully represented using **only**:
 
-* MVLP identity
-* Document lineage
-* Attestation graph
-* Deterministic state-transition logic
+- identity binding (minimum viable legal/person identity),
+- document & evidence lineage,
+- attestation graphs,
+- deterministic state-transition logic,
+- explicit exception signaling?
 
-If it requires total identity, AI judgment, ambiguous evidence, unbounded context, or implicit inference → **FAIL**.
+If it requires:
+- total identity,
+- implicit context,
+- AI judgment,
+- probabilistic inference,
+- hidden human discretion,
 
-(Anchored to nsu_prototype.md)
+→ **FAIL**.
+
+**Anchor:** `sfeu_prototype.md`
 
 ---
 
@@ -46,86 +80,118 @@ If it requires total identity, AI judgment, ambiguous evidence, unbounded contex
 
 Does the idea produce:
 
-* a falsifiable claim
-* discriminable predictions
-* measurable observables
-* counterfactual signatures
+- a falsifiable claim,
+- discriminable predictions,
+- observable indicators,
+- counterfactual signatures that differ between
+- DNI-compliant execution and
+- non-DNI systems?
 
-If not → **FAIL**.
+If not empirically distinguishable → **FAIL**.
 
-(Anchored to dni_theory.md + counterfactuals.md)
+**Anchor:** `dni_theory.md`, `counterfactuals.md`
 
 ---
 
 ## **TEST 5 — CME Consistency**
 
-Does the idea respect the equilibrium structure:
-`L1 → L2 → L3 corruption migration`
-under protocol constraints?
+Does the idea respect **Corruption Migration Equilibrium**:
 
-If it denies migration, introduces hidden discretion, modifies attester roles improperly, or collapses governance layers → **FAIL**.
+``
+L1 → L2 → L3
+``
 
-(Anchored to corruption_equilibrium.md)
+
+under execution constraints?
+
+If it:
+- claims corruption “elimination,”
+- hides discretion,
+- collapses layers,
+- bypasses attestation or exception pressure,
+
+→ **FAIL**.
+
+**Anchor:** `corruption_equilibrium.md`
 
 ---
 
 ## **TEST 6 — DNI Domain Eligibility**
 
-Does the idea operate in domains satisfying:
+Does the idea operate **only** in domains where all hold:
 
-1. Rule executability
-2. Evidence verifiability
-3. MVLP identity sufficiency
-4. Bounded exceptions
-5. Institutional-fact purity
+1. Rules are executable without interpretation  
+2. Evidence is verifiable and lineage-bound  
+3. Identity sufficiency is minimal (not total)  
+4. Exceptions are bounded and explicit  
+5. Institutional facts remain pure (non-normative)
 
-If it drifts into adjudication, morality, political rights, or contextual meaning → **FAIL**.
+If it drifts into:
+- adjudication,
+- moral rights,
+- political authority,
+- contextual meaning resolution,
 
-(Anchored to dni_blueprint.md)
+→ **FAIL**.
 
----
-
-## **TEST 7 — Drift & Stability (Failure Canon Alignment)**
-
-Does the idea avoid the canonical failure patterns from Estonia, Aadhaar, DAO collapses, UK IT failures, Singapore limits, and Thailand friction?
-
-If it introduces identity overreach, exception denial, protocol absolutism, legacy digitization, unbounded attestation, or centralized discretion → **FAIL**.
-
-(Anchored to failure_case_canon.md)
+**Anchor:** `dni_blueprint.md`
 
 ---
 
-**TEST 8 — Evaluator & Framework Purity**
-Any evaluative framework (award ruler, rubric, scoring system, narrative lens) used to judge DNI/NSU/Civita must:
+## **TEST 7 — Drift & Failure-Canon Alignment**
 
-1. Be explicitly mapped to Substrate-0′ ontology.
-2. Not introduce external ontologies (market, behavioral, governance, CS metaphysics) without reinterpretation.
-3. Not override or reshape status-functions, NSU primitives, or CME.
-4. Not determine theory design, only presentation and positioning.
-   If any evaluative framework violates these conditions → **FAIL**.
+Does the idea avoid **all canonical failure patterns**, including:
 
----
+- digitization without execution,
+- identity overreach,
+- exception suppression,
+- protocol absolutism,
+- discretionary backdoors,
+- centralized override,
+- DAO-style governance collapse?
 
-# **Verdict Rule**
+If it reproduces any known failure mode → **FAIL**.
 
-A proposal is **Substrate-0′ Pure** **iff**:
-
-```
-Test1 = PASS
-∧ Test2 = PASS
-∧ Test3 = PASS
-∧ Test4 = PASS
-∧ Test5 = PASS
-∧ Test6 = PASS
-∧ Test7 = PASS
-∧ Test8 = PASS
-```
-
-Else → **INVALID — must be redesigned or rejected.**
+**Anchor:** `failure_case_canon.md`
 
 ---
 
-# **Frozen.**
+## **TEST 8 — Evaluator & Framework Purity**
 
-No modifications unless contradictions arise in higher substrate reasoning.
+Any evaluative framework (EVP, award ruler, rubric, ranking, narrative lens):
+
+MUST:
+1. Be explicitly mapped to Substrate-0′ ontology  
+2. Introduce **no external ontology** unfiltered  
+3. Never override status-functions, SFEU primitives, or CME  
+4. Influence **presentation only**, never theory or execution
+
+If an evaluative layer shapes ontology, theory, or architecture → **FAIL**.
+
+---
+
+## **Verdict Rule**
+
+An idea is **Substrate-0′ Pure** iff:
+
+``
+T1 ∧ T2 ∧ T3 ∧ T4 ∧ T5 ∧ T6 ∧ T7 ∧ T8 = TRUE
+``
+
+
+Else:
+
+> **INVALID — redesign required.**
+
+---
+
+## **Status**
+
+**Frozen.**
+
+This file may only change if:
+- the status-function ontology changes, or
+- a higher-substrate contradiction is proven.
+
+
 
