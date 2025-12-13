@@ -1,362 +1,218 @@
-# **Minimal NSU Prototype Architecture (v1.0)**
-
-**Purpose:** Define the smallest viable instantiation of the National State Unit (NSU) that is:
-
-* implementable in a 3–6 month pilot
-* theoretically aligned with Searle-based ontology
-* empirically testable
-* suitable for inclusion in a PhD dissertation
-* appropriate for World Bank / GovTech-grade scrutiny
-
-The prototype focuses on **Business Registration**, the cleanest high-friction administrative workflow.
+### *Status-Function Execution Unit (SFEU): Design Science Research Prototype (v2.0)*
 
 ---
 
-# **1. NSU Minimal Core**
+# **SFEU Prototype**
 
-The minimal NSU consists of **four irreducible primitives**:
+### *Executable Artifact for Digital Native Institutions*
 
-### **1.1 Identity Binding (Who)**
-
-* NDID / ThaID binding
-* Public-key identity
-* Role context (actor-as-applicant / actor-as-attester)
-
-### **1.2 Document Lineage (What)**
-
-* Hash-linked documents
-* Content-addressable storage
-* Signature wrapping and counter-signature pathways
-
-### **1.3 Attestation Graph (How True)**
-
-* Nodes = attestations
-* Edges = dependencies
-* Liability weights per attester class
-* Revocation rules
-
-### **1.4 State-transition Engine (Then What)**
-
-* Deterministic transitions
-* Status-function interpreter
-* Exception boundaries
-* Logging and lineage enforcement
-
-If these four elements exist and operate coherently, an NSU exists.
+**Version 2.0 — DSR-Bound · Execution-Pure · CME-Observable**
 
 ---
 
-# **2. State-Transition Engine (STE)**
+## **0. Epistemic Status**
 
-*The computational heart of the NSU.*
+This file specifies the **SFEU prototype** as a **Design Science Research (DSR) artifact**.
 
-The STE must satisfy three invariants:
+It is **not**:
 
-### **2.1 Determinism**
+* a conceptual illustration,
+* a reference architecture,
+* or a policy proposal.
 
-Given `(state S, input X, attestation A)`, the transition to `S’` must be uniquely determined.
+It **is**:
 
-`δ(S, X, A) = S’`
-No ambiguity, no human discretion inside the protocol.
+> a *working, falsifiable execution artifact* built to test whether
+> **Digital Native Institution (DNI) theory holds under real institutional stress**.
 
----
-
-### **2.2 Status-Function Binding**
-
-The STE interprets Searle’s mapping:
-
-**X counts as Y in context C.**
-
-Examples for business registration:
-
-* “Signature + ID Binding” *(X)* counts as “Legal authorization” *(Y)* in “DBD Registration Process” *(C)*
-* “Surveyor attestation of location” *(X)* counts as “Legally valid place of business” *(Y)*
-
-STE must evaluate:
-
-* Validity
-* Completeness
-* Consistency
-
-And produce the institutional state change.
+All claims made by this prototype must be **observable, reproducible, and falsifiable**.
 
 ---
 
-### **2.3 Atomicity & Auditability**
+## **1. DSR Framing (Explicit)**
 
-Every transition must produce:
+This prototype conforms to **Design Science Research** along the following dimensions:
 
-* **Atomic commit** of new state
-* **Immutable log entry**
-* **Attestation lineage update**
+### **1.1 Problem Relevance**
 
-No partial failures.
+Administrative institutions suffer from:
 
----
+* discretionary execution,
+* unverifiable state transitions,
+* corruption opacity,
+* audit reconstruction failure.
 
-# **3. Attestation Pathway (L2)**
-
-The attestation subsystem follows:
-
-### **3.1 Three Attester Classes**
-
-* Human
-* Device
-* Institutional
-
-Each attestation contains:
-
-* Attester identity
-* Evidence
-* Signature
-* Class-based liability weight
-* Expiry/Validity context
+These failures are **institutional**, not UX or optimization problems.
 
 ---
 
-### **3.2 Attestation Graph**
+### **1.2 Artifact Definition**
 
-A directed acyclic graph where:
+The artifact is the **SFEU prototype**, defined as:
 
-* Leaves = raw evidence
-* Internal nodes = curated attestations
-* Root = domain presiding attestation bundle
-
-Business Registration Example:
-
-* GPS/device attestation → Address proof
-* Landlord / owner attestation → Usage rights
-* Applicant attestation → Identity + Intent
+> A minimal execution system capable of enforcing at least one real
+> **X → Y-in-C** institutional transition with:
+>
+> * deterministic execution,
+> * explicit failure,
+> * immutable attestation,
+> * CME-observable side effects.
 
 ---
 
-### **3.3 Attestation Evaluation**
+### **1.3 Design Knowledge Contribution**
 
-`Attestation_Valid(A) = Signature_Valid ∧ Evidence_Complete ∧ Liability_Compatible`
+The prototype contributes **design knowledge**, not features:
 
-If false → send to **Exception Layer**.
-
----
-
-# **4. Status-Function Interpreter**
-
-*The theoretical breakthrough translated into executable logic.*
-
-The interpreter enforces:
-
-### **4.1 Constitutive Rules**
-
-Mappings such as:
-“X counts as Y in C אם and only if all required conditions are satisfied”
-
-Example:
-
-```
-Document D _counts as_ Proof_of_Business_Name
-_in_ Registration_Context  
-IFF:
-- D:Name_Reservation_Cert exists  
-- Signed by DBD  
-- Within 60-day validity  
-```
+* Demonstrates that **status-function execution can be protocol-bound**
+* Shows **where corruption migrates** when discretion collapses
+* Validates the **execution–institution separation**
 
 ---
 
-### **4.2 Deontic Constraints**
+### **1.4 Evaluation Rigor**
 
-Permission, obligation, prohibition:
+Evaluation is based on:
 
-* “Applicant must provide attestation of business address”
-* “Business name must not conflict with reserved names”
-* “If applicant < 20 yrs → parental consent required”
+* execution traces,
+* exception patterns,
+* audit reconstruction,
+* corruption migration signals,
 
-Interpreter ensures rules are **binding** and **computable**.
-
----
-
-### **4.3 Status Degradation Rules**
-
-Entities lose status when:
-
-* Attestation revoked
-* Time window expires
-* Contradictory evidence emerges
-
-E.g., business name reservation expires → status reverts to “available.”
+—not stakeholder satisfaction or efficiency metrics.
 
 ---
 
-# **5. Evidence Layer (L1)**
+### **1.5 Research Rigor**
 
-Where real-world reality enters the system.
+The prototype is constrained by:
 
-Contains:
+* `ontology.md`
+* `dni_theory.md`
+* `dni_blueprint.md`
+* `sfeu_blueprint.md`
+* `corruption_equilibrium.md`
+* `computable_institutions_tech_stack.md`
 
-* Document uploads
-* Device-captured evidence (GPS, timestamps)
-* Verifiable credentials
-* Cross-agency references (e.g., Ministry of Interior)
-
-Properties:
-
-### **5.1 Grounding Constraint**
-
-Every institutional fact must have a brute-fact grounding in L1.
-
-### **5.2 Provenance Metadata**
-
-* Issuer
-* Method of issuance
-* Timestamp
-* Cryptographic integrity proofs
+Any behavior violating these files **invalidates** the artifact.
 
 ---
 
-# **6. Exception Layer**
+## **2. Scope of the Prototype (Deliberately Narrow)**
 
-Exception logic must be:
+The SFEU prototype:
 
-* **explicit**
-* **bounded**
-* **auditable**
+* executes **exactly one** institutional use-case initially
+* prioritizes **correctness over coverage**
+* is intentionally hostile to silent success
 
-Two classes:
-
-### **6.1 Soft Exceptions**
-
-Input error, missing fields.
-→ send back to applicant, no staff needed.
+This is a **research probe**, not a platform.
 
 ---
 
-### **6.2 Hard Exceptions (Human Judgment Required)**
+## **3. Prototype Use-Case Definition**
 
-Ambiguity, conflicting attestations, legal inconsistencies.
-→ route to registrar with full lineage and logs.
+A valid prototype must specify:
 
-Hard exceptions must:
+* **X** — concrete digital evidence (e.g. signed document)
+* **Y** — institutional status change (e.g. registration state)
+* **C** — explicit rule-set version
 
-* Record human judgment
-* Snapshot reasoning
-* Bind outcome to registrar’s identity
-* Feed data back to drift analysis
+The mapping must be:
 
-This is where corruption could re-enter → monitored via CME.
-
----
-
-# **7. Logging & Audit Layer**
-
-### **7.1 Immutable Logs**
-
-Every state transition yields:
-
-* Timestamp
-* Actor
-* Attestations
-* Input
-* Output
-* Exception linkage
-
-### **7.2 Lineage Reconstruction**
-
-Ability to reconstruct:
-
-* Who did what
-* Based on what evidence
-* Under what rule context
-
-### **7.3 Drift Detection**
-
-Analytics cluster logs to detect:
-
-* semantic drift
-* protocol bypassing
-* off-protocol activity
+* real (not hypothetical),
+* jurisdiction-anchored,
+* time-bound.
 
 ---
 
-# **8. API Boundaries**
+## **4. Execution Architecture (Prototype-Level)**
 
-### **8.1 Public API**
+The prototype instantiates **only the minimum required SFEU modules**:
 
-* Submit application
-* Query status
-* Retrieve lineage
-* Verify signatures
-* Fetch canonical ruleset
+1. Identity Verification
+2. Evidence & Document Integrity
+3. Context Resolution
+4. Status-Function Execution
+5. Exception Routing
+6. Audit & Attestation Ledger
 
-### **8.2 Attester API**
-
-* Submit attestation
-* Revoke attestation
-* Bind device identity
-
-### **8.3 Inter-Agency API**
-
-* Get authoritative documents
-* Query legal statuses
-* Push updates/patches
+No additional logic is permitted.
 
 ---
 
-# **9. Deployment Envelope (Minimal Feasible)**
+## **5. Explicit Non-Goals (DSR Discipline)**
 
-### **9.1 Infrastructure**
+The prototype **must not** attempt to:
 
-* Containerized service
-* Stateless front-end
-* PostgreSQL or equivalent for lineage storage
-* Object storage for documents
-* PKI or NDID integration
+* optimize latency or UX
+* generalize across institutions
+* resolve ambiguity
+* embed AI judgment
+* simulate governance outcomes
 
-### **9.2 Security Envelope**
-
-* TLS everywhere
-* Hardware-backed key storage
-* Post-quantum-ready signatures (optional but ideal)
-
-### **9.3 Governance Envelope**
-
-* Change control board
-* Rule-update workflow
-* Attestation-class management
+Any such addition contaminates DSR validity.
 
 ---
 
-# **10. Testable Pilot Domain — Business Registration**
+## **6. CME Observability Requirements**
 
-### **Why this domain?**
+The prototype must expose **corruption migration signals**, including:
 
-* High friction
-* Clear constitutive rules
-* High corruption incentives
-* Clean attestation structure
-* Deterministic outcomes
-* Low political volatility
-* Easy measurable success metrics
+* where discretionary pressure accumulates,
+* which attestations are contested,
+* which exceptions recur,
+* which actors attempt off-protocol action.
 
-### **Workflow Sketch**
-
-1. **Applicant Identity Binding**
-2. **Submit Name Reservation Evidence**
-3. **Address Attestation Pathway Built**
-4. **Upload Supporting Documents**
-5. **Interpreter Checks Status Functions**
-6. **STE Executes State Transition**
-7. **Output: Certificate of Business Registration**
-8. **Logs + Lineage Immutable**
-
-### **Metrics**
-
-* Latency
-* Exception rate
-* L1→L2 corruption migration
-* Governance intervention frequency
-* End-user trust
+If corruption appears to “disappear,” the prototype is **invalid**.
 
 ---
 
-# **Frozen**
+## **7. Failure Modes (Required, Not Exceptional)**
 
-This file is **frozen**, as it defines the implementation artifact required by DSR methodology and enables empirical validation.
+A correct prototype is expected to:
+
+* fail frequently,
+* emit explicit exceptions,
+* surface institutional friction.
+
+A prototype that “mostly works” is **suspect**.
+
+---
+
+## **8. Evaluation Metrics (DSR-Aligned)**
+
+The prototype is evaluated by:
+
+* % of protocol-valid executions
+* exception frequency & clustering
+* audit reconstruction success
+* CME-consistent migration patterns
+* reproducibility across runs
+
+Performance metrics are **out of scope**.
+
+---
+
+## **9. Relation to Dissertation**
+
+This prototype grounds:
+
+* Chapter 3 (Methodology — DSR)
+* Chapter 4 (Artifact & Evaluation)
+* CME validation
+* Failure Case Canon
+
+It is **not** illustrative; it is **evidentiary**.
+
+---
+
+## **10. Status**
+
+This file is **frozen** unless:
+
+* DSR criteria change,
+* CME predictions are falsified,
+* or execution violates Substrate-0′ constraints.
+
+

@@ -1,379 +1,280 @@
-# **Counterfactuals, Observable Implications & Empirical Discriminators**
+# **Counterfactual Framework**
 
-### *Version 1.0 — Frozen Scientific Test Framework*
-
----
-
-## **0. Purpose**
-
-This file establishes the **scientific evaluation framework** for the NSU/DNI theory by defining:
-
-* Counterfactual worlds
-* Observable implications
-* Failure vs. success signatures
-* Measurement strategies
-* Discriminatory indicators
-
-This is what makes the dissertation **testable, falsifiable, and academically rigorous**.
-
-No top-tier dissertation is complete without such a section.
+**Version 2.0 — Execution-Grounded · Institutionally Adversarial**
 
 ---
 
-# **1. Counterfactual World A — If DNI/NSU is FALSE**
+## **0. Epistemic Status**
 
-If the core theory is false, meaning **protocol-constrained institutions do NOT materially change governance outcomes**, the world will exhibit the following:
+This file defines the **counterfactual test framework** for the dissertation.
 
-### **A1. Persistence of Front-Office Corruption**
+It exists to answer one question only:
 
-Even after NSU deployment:
+> **Under what alternative worlds would DNI, SFEU, or CME be false?**
 
-* Bribes remain in L1
-* Off-protocol interactions persist
-* Human discretion remains dominant
+This is **not** a narrative device.
+This is a **falsification engine**.
 
-This would mean NSU **did not alter incentives**.
-
----
-
-### **A2. Minimal Change in Administrative Latency**
-
-If the theory is false:
-
-* Process latency remains near baseline
-* NSU automation fails to reduce real-world waiting times
-
-This implies protocols do **not** constrain real-world workflows.
+If the system cannot be wrong under these counterfactuals,
+the dissertation fails as science.
 
 ---
 
-### **A3. No Migration Toward Attestation or Governance Layers**
+## **1. Scope and Preconditions**
 
-If corruption does NOT shift to L2/L3:
+Counterfactuals defined here apply **only when**:
 
-* Attestation fraud does not increase
-* Governance manipulation does not concentrate
+1. DNI necessary conditions (N1–N6) are *claimed* to hold
+2. Execution is performed by an SFEU-class system
+3. Observations are derived from:
 
-This implies NIE (New Institutional Economics) assumptions underlying CME were wrong.
+   * execution traces
+   * attestation logs
+   * exception routing
+   * audit reconstruction
 
----
-
-### **A4. Protocol Drift Outpaces Adaptation**
-
-Without NSU/DNI effectiveness:
-
-* Legal changes break protocols frequently
-* Exceptions overwhelm the system
-* Administrators bypass NSU altogether
-
-This shows a **semantic mismatch** so severe that protocols cannot hold institutional meaning.
+If these preconditions are absent, results are **non-evaluative**.
 
 ---
 
-### **A5. Error Surfaces Become Unpredictable**
+## **2. Counterfactual Classes (MECE)**
 
-If DNI is false:
-
-* NSU does not produce reproducible outcomes
-* Institutional decisions remain inconsistent
-
-This shows protocol governance is insufficient.
+All counterfactuals fall into **four mutually exclusive classes**.
 
 ---
 
-### **A6. Judicial Reinterpretation Reasserts Complete Dominance**
+## **CF-A: Execution Counterfactuals (Protocol Reality Tests)**
 
-Courts strike down NSU-based actions frequently or broadly.
+**Question:**
+What if execution is *claimed* to be protocol-bound, but is not?
 
-This would signal:
+### **CF-A1 — Hidden Discretion World**
 
-* NSU cannot align with legal ontology
-* The status-function mapping fails at legitimacy level
+**Assumption**
 
----
+* SFEU exists in name
+* But discretionary overrides exist (manual DB writes, silent approvals)
 
-# **2. Counterfactual World B — If DNI/NSU is TRUE**
+**Expected Observation**
 
-If the theory is correct (protocol constraints alter governance dynamics), the world will show:
+* Front-office corruption persists
+* CME migration does *not* occur
+* Audit reconstruction fails intermittently
 
-### **B1. Collapse of L1 Corruption**
+**Falsification Trigger**
 
-Surface-level corruption becomes:
-
-* impractical
-* irrational
-* detectable
-
-This shift is rapid and measurable.
+* If corruption still migrates upward despite hidden discretion → CME invalid
 
 ---
 
-### **B2. Emergence of Attestation-Layer Fraud**
+### **CF-A2 — Silent Failure World**
 
-New corruption locus:
+**Assumption**
 
-* attesters
-* multi-attester collusion
-* identity binding exploitation
+* Invalid X occasionally passes as Y
+* Failures are suppressed or auto-corrected
 
-Exactly as CME predicts.
+**Expected Observation**
 
----
+* Low exception rate
+* High institutional error rate
+* No attestation disputes
 
-### **B3. Concentration of High-Level Governance Manipulation**
+**Falsification Trigger**
 
-Corruption becomes:
-
-* rarer
-* more centralized
-* more significant per incident
-
-This is a strong empirical discriminator.
+* If CME signals appear without explicit failure → SFEU definition violated
 
 ---
 
-### **B4. Predictable Error Surfaces**
+## **CF-B: Institutional Boundary Counterfactuals**
 
-NSU produces:
-
-* deterministic workflows
-* reproducible outcomes
-
-Errors cluster in:
-
-* input oracles
-* semantic drift
-* governance layer
+**Question:**
+What if institutional meaning leaks into execution?
 
 ---
 
-### **B5. Reduced Administrative Latency**
+### **CF-B1 — Interpretive Protocol World**
 
-With NSU:
+**Assumption**
 
-* deterministic transitions
-* standardized attestations
-* fewer exceptions
+* Execution layer resolves ambiguity
+* Protocol “decides” edge cases
 
-Latency decreases significantly.
+**Expected Observation**
 
----
+* Reduced exceptions
+* Reduced governance visibility
+* Apparent efficiency gains
 
-### **B6. Increased Citizen Trust**
+**Falsification Trigger**
 
-Trust increases because:
-
-* decisions are predictable
-* discretion is reduced
-* logs are immutable
-
-Trust measurable via surveys or administrative complaint frequencies.
+* If system “works better” but CME disappears → theory invalid
+  (category error detected)
 
 ---
 
-# **3. Observable Implications**
+### **CF-B2 — Governance Substitution World**
 
-### **O1. Workflow Conformance Rate**
+**Assumption**
 
-Percentage of total administrative actions executed purely on-protocol.
+* SFEU substitutes for human governance
+* Exception routing is bypassed
 
-Higher number → supports DNI.
-Lower number → counterfactual A.
+**Expected Observation**
 
----
+* Reduced contestability
+* Centralized power at execution layer
 
-### **O2. Attestation Dispute Rate**
+**Falsification Trigger**
 
-Number of disputes per 1,000 attestations.
-
-Temporal migration pattern:
-
-* ↑ early → supports CME
-* ↓ late → supports stabilized DNI
+* If corruption decreases without migration → CME falsified
 
 ---
 
-### **O3. Latency Reduction Curve**
+## **CF-C: CME-Specific Counterfactuals (Equilibrium Tests)**
 
-Measure process time pre-NSU vs. post-NSU.
-
-If DNI is true → curve declines monotonically.
-
----
-
-### **O4. Exception Burden Ratio**
-
-Exceptions / Total work volume.
-
-High and rising → counterfactual A.
-High initially then stable → supports DNI.
+**Question:**
+What if corruption does *not* migrate as predicted?
 
 ---
 
-### **O5. Governance Intervention Frequency**
+### **CF-C1 — No-Migration World**
 
-Number of times governance board must rewrite or patch protocol rules.
+**Assumption**
 
-Stabilizes over time → supports B3.
-Escalates → supports A4 (theory failure).
+* DNI + SFEU fully enforced
+* Corruption remains front-office and opaque
 
----
+**Expected Observation**
 
-### **O6. Corruption Migration Signature**
+* Bribery persists at execution points
+* No increase in attestation or exception pressure
 
-Measured via:
+**Conclusion**
 
-* whistleblower reports
-* complaint typology
-* prosecution dataset patterns
-
-Shift from L1 → L2 → L3 supports CME.
-No shift → falsifies H4.
+* CME is **false**
 
 ---
 
-# **4. Failure Signatures (Disconfirmatory Evidence)**
+### **CF-C2 — Disappearance World**
 
-The following would **falsify** NSU/DNI theory:
+**Assumption**
 
-### **F1. High Off-Protocol Discretion Remains Dominant**
+* Corruption metrics drop across *all* layers
 
-Despite NSU enforcement.
+**Expected Observation**
 
-### **F2. L2/L3 Corruption Fails to Materialize**
+* Clean logs
+* No disputes
+* No exceptions
 
-No migration → CME wrong → DNI theory needs revision.
+**Conclusion**
 
-### **F3. Protocol Drift Becomes Unmanageable**
-
-Frequent protocol bypassing.
-
-### **F4. Judicial Strikes Against NSU Become Regular**
-
-System fails legitimacy tests.
-
-### **F5. Latency Does Not Improve**
-
-Administrative bottlenecks unchanged.
-
-### **F6. User Trust Does Not Increase**
-
-Suggests protocol transparency doesn’t matter to citizens.
+* Measurement invalid **or**
+* Execution masking corruption
+  Either case → CME rejected
 
 ---
 
-# **5. Success Signatures (Confirmatory Evidence)**
+## **CF-D: Domain Transfer Counterfactuals**
 
-DNI/NSU theory is **supported** if:
-
-### **S1. Document lineage becomes tamper-proof**
-
-Observable through audit logs.
-
-### **S2. Identity-binding enforcement works**
-
-Low impersonation or fraud cases.
-
-### **S3. Protocol workflows dominate**
-
-> 80% of actions conform to protocol.
-
-### **S4. Exceptions decrease over time**
-
-Indicates semantic convergence.
-
-### **S5. Corruption relocates predictably**
-
-Supports CME equilibrium predictions.
-
-### **S6. Governance layer stabilizes**
-
-Patching slows → mature NSU.
-
-### **S7. Administrative throughput increases**
-
-Clear, measurable capacity uplift.
+**Question:**
+Does the theory over-generalize?
 
 ---
 
-# **6. Measurement Strategy**
+### **CF-D1 — Non-Administrative Domain World**
 
-### **M1. Longitudinal Audit Logs**
+**Assumption**
 
-Compare:
+* Apply SFEU logic to:
 
-* pre-NSU
-* early NSU
-* mature NSU
+  * adjudication
+  * moral judgment
+  * political decision-making
 
-### **M2. Process-Timing Benchmarks**
+**Expected Observation**
 
-Monitor:
+* Breakdown of execution
+* Explosion of exceptions
 
-* median latency
-* variance
-* tail-behavior
+**Conclusion**
 
-### **M3. Corruption Typology Mapping**
-
-Classify:
-
-* L1 acts
-* L2 acts
-* L3 acts
-
-### **M4. Exception Case Registry**
-
-Quantify:
-
-* type
-* frequency
-* resolution time
-
-### **M5. Protocol Governance Activity**
-
-Track:
-
-* rule changes
-* drift corrections
-* contested updates
-
-### **M6. Citizen Trust Surveys**
-
-Indirect but necessary.
+* Confirms **boundary conditions**
+* If it “works” → ontology violated
 
 ---
 
-# **7. Discriminatory Indicators (DI1–DI6)**
+## **3. Counterfactual Evaluation Matrix**
 
-These indicators distinguish DNI from non-DNI worlds.
-
-### **DI1. L1 Corruption Elasticity**
-
-How easily L1 corruption rebounds when NSU ghosts (is disabled temporarily).
-
-### **DI2. Attestation Fraud Elasticity**
-
-How sensitive L2 fraud is to liability changes.
-
-### **DI3. Protocol Drift Velocity**
-
-Rate-of-change of exception cases over time.
-
-### **DI4. Governance Stability Index**
-
-Number of governance interventions per quarter.
-
-### **DI5. Semantics Alignment Index**
-
-Semantic distance between protocol rule and institutional meaning.
-
-### **DI6. Latency Gradient**
-
-Slope of latency reduction curve.
+| Counterfactual | DNI Holds? | SFEU Holds? | CME Holds? | Interpretation         |
+| -------------- | ---------- | ----------- | ---------- | ---------------------- |
+| CF-A1          | ❌          | ❌           | ❌          | Execution invalid      |
+| CF-A2          | ❌          | ❌           | ❌          | Protocol contamination |
+| CF-B1          | ❌          | ❌           | ❌          | Category error         |
+| CF-B2          | ❌          | ❌           | ❌          | Governance collapse    |
+| CF-C1          | ✅          | ✅           | ❌          | CME falsified          |
+| CF-C2          | ❌          | ❌           | ❌          | Measurement failure    |
+| CF-D1          | ❌          | ❌           | N/A        | Boundary confirmed     |
 
 ---
 
-# **8. Frozen**
+## **4. Relation to Implementation (Critical)**
 
-This file is **frozen**, as it establishes the empirical backbone of the dissertation.
+These counterfactuals are **not hypothetical**.
+
+They are executed against:
+
+* `sfeu_prototype.md`
+* real execution traces
+* real exception paths
+* real audit logs
+
+A counterfactual that cannot be operationalized
+is **invalid and removed**.
+
+---
+
+## **5. Thailand as Destructive Validator**
+
+Thailand is treated as:
+
+* high discretion
+* high corruption pressure
+* low trust equilibrium
+
+If CME holds **in Thailand**, it holds elsewhere.
+If it fails here, the theory fails globally.
+
+Thailand is **not a case study**.
+It is a **stress weapon**.
+
+---
+
+## **6. Falsification Priority Rule**
+
+If **any** of the following occur:
+
+1. Corruption does not migrate
+2. Execution discretion persists
+3. Exceptions are suppressed
+4. Governance becomes opaque
+5. Audit reconstruction fails
+
+Then:
+
+> **The theory is false or the implementation is dishonest.**
+
+There is no third option.
+
+---
+
+## **7. Status**
+
+This counterfactual framework is **frozen** unless:
+
+* DNI theory is revised
+* CME is falsified
+* SFEU execution invariants change
+
+

@@ -1,392 +1,242 @@
-## **evp_v2.md**
-
-### *Elite Version Plan v2.0 (Incorporating All 4 AI Critiques)*
-
-*(This version is “frozen” as the canonical blueprint for the dissertation rewrite and defense strategy.)*
+## *Evaluation & Visibility Protocol*
+## *Presentation-Layer Only · Non-Authoritative · Deletable*
 
 ---
 
-# **Elite Version Plan v2.0**
+## Epistemic Status (Hard Lock)
 
-**A fully corrected, substrate-grounded, academically rigorous redesign of NSU/DNI positioning and dissertation architecture.**
-This version integrates **all 4 AI critiques**, **removes every category error**, and **raises the work to MIT/Oxford caliber** without losing operational clarity.
+EVP v3.0 is a **presentation-layer protocol** governing how
+**already-validated work** may be *described*, *positioned*, and *communicated*
+to external evaluators (academics, funders, institutions).
 
----
+EVP v3.0 is:
 
-# **0. Overview of Corrections**
+- **non-authoritative**
+- **non-validating**
+- **non-falsifying**
+- **non-architectural**
+- **non-ontological**
 
-The EVP v1.0 produced strong structure but contained:
+EVP v3.0 does **not**:
+- define truth
+- define rigor
+- define correctness
+- define success
+- define institutional validity
 
-* residual **category errors**
-* missing **formal theory** components
-* ontological slippage
-* insufficient **institutional realism**
-* vague **methodology architecture**
-* underdeveloped **normative grounding**
+If EVP is removed, **no truth, theory, architecture, or evidence changes**.
 
-EVP v2.0 corrects these via:
-
-* Searle grounding
-* falsifiable theory
-* game-theoretic corruption model
-* explicit counterfactuals
-* prototype path
-* political economy
-* normative alignment
-
-This is now a **field-defining dissertation backbone**.
+If deletion changes meaning → this file is invalid.
 
 ---
 
-# **1. Corrections from SDAC (Substrate-Derived Attack Canon)**
+## Dependency Order (Explicit, One-Way)
 
-Each SDAC attack is mapped to EVP v2.0 corrections.
+EVP v3.0 is strictly downstream of:
 
----
+1. `substrate0_prime_purity_test.md`
+2. `ontology.md`
+3. `dni_theory.md`
+4. `dni_blueprint.md`
+5. `sfeu_blueprint.md`
+6. `sfeu_prototype.md`
+7. `corruption_equilibrium.md`
+8. `counterfactuals.md`
+9. `failure_case_canon.md`
+10. `dnm_methodology.md`
+11. `meta_ruler.md`
+12. Award extraction / pattern / ruler files
 
-## **SD-1 Representation Limit — Fixed**
+Influence is **one-directional only**:
 
-**EVP Fix:**
-Representation is now explicitly defined through **Searle’s Status-Function Ontology**:
+``
+Substrate-0′ / Theory / Execution
+↓
+EVP (Description Only)
+``
 
-* Institutional facts = status functions
-* Status functions = constitutive rules
-* Constitutive rules = protocolizable *iff* they meet formal criteria
 
-We no longer claim full representation → only **bounded institutional representation**.
-
----
-
-## **SD-2 Identity Incompleteness — Fixed**
-
-**EVP Fix:**
-Identity in NSU = **Minimum Viable Legal Persona (MVLP)**.
-Not the human. Not the “whole identity.”
-Only the **attributes legally necessary to assign status functions**.
-
-This resolves:
-
-* administrative violence
-* category collapse
-* privacy distortion
-* overreach
+Any reverse influence → **FAIL (Purity Test 8)**.
 
 ---
 
-## **SD-3 Recursive Misalignment — Fixed**
+## Purpose
 
-**EVP Fix:**
-We introduce **CME (Corruption Migration Equilibrium)**:
-A *formal* game where actors choose:
+EVP v3.0 answers one question only:
 
-* comply
-* corrupt on-protocol
-* corrupt off-protocol
+> **How can this work be *described* to external evaluators  
+> without distorting its truth conditions?**
 
-NSU parameters shift equilibria by:
-
-* lowering payoff of off-protocol
-* increasing detection probability
-* shifting risk profiles
-
-This gives mathematical grounding to corruption claims.
+EVP manages **visibility**, not **validity**.
 
 ---
 
-## **SD-4 Alignment Boundary — Fixed**
+## What Changed from EVP v2.0 (Explicit)
 
-**EVP Fix:**
-We no longer use “Four-Plane Ontology.”
-Category error removed.
+Relative to EVP v2.0 :contentReference[oaicite:1]{index=1}, EVP v3.0 introduces **hard role correction**:
 
-Now we use **Searle’s dual ontology**:
+### Removed
+- implicit claims of “backbone” or “field-defining” authority
+- language implying evaluator standards shape rigor
+- any suggestion that EVP corrects ontology, theory, or execution
 
-* **Brute facts (L1 evidence)**
-* **Institutional facts (status functions)**
-  NSU is the interpreter that binds brute facts → institutional facts.
+### Retained (but demoted)
+- synthesis of critiques (as narrative context)
+- mapping of how others *talk about* rigor, incentives, governance
+- visibility strategy for examiners and institutions
 
-No metaphysics. No pseudo-ontology.
-
----
-
-## **SD-5 Attestation Limit — Fixed**
-
-**EVP Fix:**
-EVP v2.0 introduces:
-
-* liability-weighted attestation graph
-* epistemic hierarchy
-* conflict resolution rules
-* grounding completeness tests
-* recursive accountability model
-
-This addresses the “oracle problem” using socially realistic mechanisms.
+### Added
+- **deletability test**
+- **explicit subordination**
+- **directionality enforcement**
+- **meta-ruler compliance**
 
 ---
 
-## **SD-6 Incentive Reconfiguration — Fixed**
+## EVP Core Rules (MECE)
 
-**EVP Fix:**
-Incentive structure now explicitly modeled in the **CME game**:
+### **EVP-1 — Description, Not Validation**
+EVP may describe how evaluators might *perceive*:
+- rigor
+- novelty
+- relevance
+- integration
 
-* expected payoff
-* expected cost
-* variance of detection
-* “off-protocol attractor” mapping
-* behavioral equilibria
-
-A genuine institutional economics integration.
-
----
-
-## **SD-7 Adaptation Mismatch — Fixed**
-
-**EVP Fix:**
-We replaced vague drift models with:
-
-* **Patch governance protocol**
-* **Rule-version lineage**
-* **Semantic-drift detectors**
-* **Exception analytics to detect new practice emergence**
-
-Protocols now evolve realistically, not ideally.
+EVP must never claim:
+- correctness
+- necessity
+- sufficiency
+- inevitability
 
 ---
 
-## **SD-8 Semantic Drift — Fixed**
+### **EVP-2 — No Theory Shaping**
+EVP must not:
+- motivate theory design
+- select architectures
+- justify execution choices
+- influence falsification thresholds
 
-**EVP Fix:**
-NSU treats **semantics as versioned objects**, not static definitions.
-Context = explicit, version-controlled, auditable.
-
----
-
-## **SD-9 Agency Leakage — Fixed**
-
-**EVP Fix:**
-We incorporate:
-
-* off-protocol monitoring
-* leakage pattern detection
-* structural mapping of shadow workflows
-* exception analytics
-
-NSU no longer “assumes” compliance; it **detects and models non-compliance**.
+Theory stands or falls **without EVP**.
 
 ---
 
-# **2. Integration of Missing Critiques (All 4 AIs)**
+### **EVP-3 — No Execution Shielding**
+EVP must not:
+- excuse empirical weakness
+- mask CME failures
+- substitute for pilots
+- soften counterfactual falsifiers
 
-Each AI critique is fully internalized.
-
----
-
-## **2.1 The Kill Shot (GROK): Liability Execution Vulnerability**
-
-**Fix:**
-Introduce **Z-Clause (Zero-Knowledge Slashing + Post-Facto Appeal)**:
-
-* Pre-staked liability
-* Automatic slashing
-* Appeal after the fact
-* Constitutionally compliant
-
-This plugs the deepest hole.
+If execution fails, EVP is irrelevant.
 
 ---
 
-## **2.2 GEMINI: Missing “Translation Layer”**
+### **EVP-4 — Evaluator Language Is Descriptive Only**
+All references to:
+- MIT / Oxford / Harvard
+- awards
+- elite evaluators
+- institutional prestige
 
-**Fix:**
-Status-Function Interpreter explicitly defines the **lossy compression zone** between:
-
-* L1 brute facts
-* constitutive rules
-* institutional outcomes
-
-This is now formal, bounded, and measurable.
+are treated as **descriptive vocabularies**, not standards of truth.
 
 ---
 
-## **2.3 PERPLEXITY: No Falsification Framework**
+### **EVP-5 — Deletability Invariant**
+For any section of EVP:
 
-**Fix:**
-We added:
+> If removed,  
+> no ontological claim, theoretical claim, architectural decision,  
+> or empirical result changes.
 
-* counterfactual world
-* falsification criteria
-* observable implications
-* discriminatory indicators
-
-DNI is now a **testable** theory.
+If this condition fails → section invalid.
 
 ---
 
-## **2.4 CLAUDE: Four-Plane Ontology Incoherence**
+## Relationship to Critiques (Reframed)
 
-**Fix:**
-Complete removal.
-Replaced with Searle-built status-function interpreter.
-No category errors remain.
+Critiques from AI systems, academics, or reviewers are treated as:
 
----
+- **descriptions of perceived weaknesses**
+- **inputs to narrative clarification**
+- **signals of miscommunication risk**
 
-# **3. Removal of All Category Errors**
+They are **not**:
+- truth arbiters
+- theory generators
+- architectural constraints
 
-EVP v2.0 eliminates:
-
-* confusing ontological layering
-* mixing infrastructure with metaphysics
-* misclassification of institutions as protocols
-* overextension of identity
-
-Institutional facts and brute facts are now **separate**, formally bound only via explicit rules.
-
-This is the first time the dissertation achieves ontological purity.
+Corrections only matter **if independently validated** by:
+- SFEU execution
+- CME observability
+- counterfactual discrimination
 
 ---
 
-# **4. Strengthening of Methodology**
+## Relationship to Methodology
 
-EVP v2.0 introduces full methodological coherence:
+EVP does not define method.
 
-### **4.1 Ostrom → Field structure**
+DNM (`dnm_methodology.md`) defines:
+- how evidence is generated
+- how claims are falsified
 
-Defines rule types and actor roles.
-
-### **4.2 DSR → Artifact production**
-
-The NSU prototype is the mandatory artifact.
-
-### **4.3 Protocol Engineering → Formal invariants**
-
-Moves the theory from narrative to executable logic.
-
-### **4.4 Institutional Economics → Incentive equilibria**
-
-CME provides rigor.
-
-### **4.5 STS → Constraint space**
-
-Defines socio-technical friction.
-
-### **4.6 Counterfactual Strategy → Scientific rigor**
-
-Ensures theory can be wrong → makes theory valid.
-
-This is the strongest methodological integration in the digital governance literature.
+EVP may only **reference** methodology to explain
+*how rigor is demonstrated*, never to define it.
 
 ---
 
-# **5. Corrected Theoretical Positioning**
+## Relationship to Award Frameworks
 
-EVP v2.0 now positions:
+EVP may draw from:
 
-### **5.1 NSU = Institutional Infrastructure**
+- `award_extraction_outline_v2.2.md`
+- `award_pattern_extraction_framework.md`
+- `award_ruler_construction_guide.md`
 
-Not ontology.
-Not theory.
-Not metaphysics.
+Only to:
+- anticipate evaluator phrasing
+- order exposition
+- clarify emphasis
 
-Analogous to:
-
-* accounting standards
-* legal codification frameworks
-* TCP/IP
-
-A foundational operational substrate.
+Award logic must pass **Meta-Ruler constraints**.
+Failure → discard award framing, not theory.
 
 ---
 
-### **5.2 DNI = Mid-Range Institutional Theory**
+## Permitted Uses
 
-Properties:
+EVP v3.0 may be used to:
 
-* falsifiable
-* predictive
-* bounded
-* domain-specific
-* generalizable across states with similar administrative structures
-
-This satisfies:
-
-* MIT’s demand for formal theory
-* Oxford’s demand for conceptual clarity
-* Harvard’s demand for policy relevance
+- structure dissertation defense narratives
+- prepare examiner-facing explanations
+- align terminology with evaluator expectations
+- reduce misinterpretation risk
 
 ---
 
-# **6. Correct Normative Foundations**
+## Prohibited Uses
 
-EVP v2.0 makes normative values explicit:
+EVP v3.0 must never be used to:
 
-### **6.1 Human agency preserved via exception layer**
+- claim superiority
+- justify funding
+- override falsification
+- argue inevitability
+- replace empirical work
+- influence architecture
 
-NSU never replaces judgment where judgment is irreducible.
-
-### **6.2 Minimal-state principle**
-
-Protocol encodes only **administrative necessities**, nothing more.
-
-### **6.3 Anti-panopticon guarantees**
-
-No “total identity binding.”
-Only MVLP attributes.
-
-### **6.4 Due process preserved**
-
-Z-Clause + appeal routes.
-
-### **6.5 Transparency-first design**
-
-All status-function mappings are public.
-
-### **6.6 Equity and non-exclusion**
-
-Protocol logic prevents discriminatory pathways.
-
-This satisfies the ethical demands raised by all 4 AI critiques.
+Any such use → **INVALID**.
 
 ---
 
-# **7. Path to MIT/Oxford-Grade Dissertation**
+## Status
 
-EVP v2.0 defines the clear path forward:
+**Frozen — EVP v3.0**
 
-### **7.1 Tier 1 Deliverables (Mandatory)**
+This file may change only if:
+- Substrate-0′ ontology changes, or
+- the project abandons presentation-layer separation entirely.
 
-* Searle ontology rewrite
-* falsifiable DNI theory
-* CME equilibrium model
-* NSU prototype
-* counterfactual analysis
 
-### **7.2 Tier 2 Deliverables (Strongly recommended)**
-
-* limited pilot
-* comparative case study
-* failure-mode deep dive
-
-### **7.3 Tier 3 Deliverables (Optional, but elevating)**
-
-* multi-language GitHub publication
-* public domain architecture
-* cross-Asian applicability mapping
-
-This makes the dissertation simultaneously:
-
-* academically approval-ready
-* World Bank–credible
-* practically useful for Thailand
-
----
-
-# **EVP-X — Evaluator Independence**
-Evaluation standards (EVP) must not be distorted to satisfy external awards or fashions.  
-External rulers may be mapped into EVP only after Substrate-0′ alignment.
-
----
-
-# **Frozen**
-
-This file is frozen as the canonical Elite Version Plan v2.0 and should be referenced in all subsequent dissertation planning.

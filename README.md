@@ -1,211 +1,260 @@
-# Digital Native Institutions (DNI)
-**Canonical repository for the formal theory, architecture, and dissertation framework of Digital Native Institutions and the National Service Unit (NSU).**
+# **Computable Institutions**
 
-This repository contains the *frozen academic substrate* for a new institutional category grounded in:
+**Canonical repository for the ontology, theory, execution architecture, and dissertation framework of Computable Institutions.**
 
-- **Status-function ontology**
-- **Protocol-governed institutional facts**
-- **Attested evidence models**
-- **Deterministic state-transition logic**
-- **Corruption Migration Equilibrium (CME)**
-- **Counterfactual falsifiability**
+This repository formalizes how **institutional facts** can be made *computable* **without collapsing law, meaning, or governance into software**.
 
-All files inside `/theory/` are **canonical and non-mutable**.  
-All dissertation drafts inside `/dissertation/` must conform to these files.
+It is simultaneously:
+
+* a **frozen theoretical substrate**,
+* an **execution-constrained architectural reference**,
+* and a **CUTIP PhD dissertation backbone**.
 
 ---
 
-## 🔍 What This Repository Is
-A structured, open, academic-technical reference that defines:
+## **What Are Computable Institutions?**
 
-1. **What a Digital Native Institution is**  
-2. **How institutional facts become computable**  
-3. **How corruption migrates under protocol constraints**  
-4. **How a minimal National Service Unit (NSU) can be built and empirically evaluated**  
-5. **How these components form the basis of a PhD dissertation**
+**Computable Institutions** are institutions whose:
 
-This repository serves simultaneously as:
-
-- A **frozen theory base**
-- A **protocol architecture reference**
-- A **CUTIP dissertation workspace**
-- A **forkable foundation** for anyone extending or applying DNI/NSU
-
----
-
-## 🧭 Start Here (Reading Order)
-
-If you are new to this project:
-
-1. **`/docs/overview.md`**  
-   High-level explanation of DNI and NSU.
-
-2. **`/theory/ontology.md`**  
-   The status-function foundation of institutional facts.
-
-3. **`/theory/dni_theory.md`**  
-   Formal definition + necessary & sufficient conditions of DNIs.
-
-4. **`/theory/nsu_blueprint.md`**  
-   Architectural boundaries and primitives of the NSU.
-
-5. **`/docs/quickstart.md`**  
-   A concise 5-minute orientation.
-
-After understanding the above, you may explore:
-
-- **`/dissertation/`** for CUTIP dissertation chapters  
-- **`/implementation/`** for prototype materials  
-- **`/field-data/`** for empirical evidence used in evaluation  
-
----
-
-## 📂 Repository Structure
-
-```
-digital-native-institutions/
-│
-├── README.md ← You are here (canonical entrypoint)
-├── LICENSE.md ← Fractal Open License
-├── CONTRIBUTING.md ← Fork-first philosophy
-│
-├── /docs/ ← Human-friendly narrative layer
-│ ├── overview.md
-│ ├── quickstart.md
-│ └── glossary.md
-│
-├── /theory/ ← Frozen canonical project files (non-mutable)
-│ ├── ontology.md
-│ ├── dni_theory.md
-│ ├── dni_blueprint.md
-│ ├── nsu_blueprint.md
-│ ├── nsu_prototype.md
-│ ├── corruption_equilibrium.md
-│ ├── counterfactuals.md
-│ ├── evp_v2.md
-│ ├── failure_case_canon.md
-│ └── purity_test.md
-│
-├── /dissertation/ ← CUTIP dissertation drafts
-│ ├── dissertation_frame.md
-│ ├── chapter01_intro/
-│ ├── chapter02_lit_review/
-│ ├── chapter03_methodology/
-│ ├── chapter04_results/
-│ ├── chapter05_discussion/
-│ └── chapter06_conclusion/
-│
-├── /implementation/ ← NSU prototype resources
-│ ├── diagrams/
-│ ├── attestation_examples/
-│ ├── state_transition_models/
-│ └── api_skeletons/
-│
-├── /field-data/ ← Empirical materials for evaluation
-│ ├── anonymized_interviews/
-│ ├── process_maps/
-│ └── friction_observations/
-│
-├── /appendices/
-│ ├── forms/
-│ ├── images/
-│ └── supplementary.md
-│
-└── /archive/ ← Deprecated legacy files (non-canonical)
-```
-
----
-
-## 🏛 What Are Digital Native Institutions?
-
-A **Digital Native Institution (DNI)** is an institution whose:
-
-- constitutive rules  
-- evidence model  
-- identity bindings  
-- exception boundaries  
-- state transitions  
+* constitutive rules,
+* evidence models,
+* execution constraints,
+* and failure modes
 
 are represented in **explicit, protocol-executable form**, such that:
 
-> **Institutional facts are produced through deterministic rule application, not human discretion.**
+* institutional facts are produced deterministically,
+* administrative discretion is structurally constrained,
+* corruption **relocates** into observable and contestable zones,
+* failures surface explicitly instead of being absorbed silently.
 
-Formal definitions, eligibility conditions, and classification rubrics are in:
+This project does **not** claim to eliminate:
 
-- `theory/dni_theory.md`  
-- `theory/dni_blueprint.md`  
+* corruption,
+* ambiguity,
+* human judgment,
+* or political conflict.
+
+It makes them **measurable, auditable, and governable**.
 
 ---
 
-## 🧩 What Is the National Service Unit (NSU)?
+## **Core Distinction (Non-Negotiable)**
 
-The NSU is the **minimal execution substrate** required to implement institutional facts digitally.
+### **Digital Native Institutions (DNI)**
 
-It consists of four primitives:
-
-1. **Identity Binding (MVLP)**
-2. **Document Lineage**
-3. **Attestation Graph**
-4. **Deterministic State-Transition Engine**
+* Define the **institutional form**
+* Specify **status-function mappings**
+  (`X counts as Y in context C`)
+* Operate at the level of **constitutive rules**
+* Answer: *What does it mean for an institution to exist digitally?*
 
 See:
 
-- `theory/nsu_blueprint.md`  
-- `theory/nsu_prototype.md`  
+* `ontology.md`
+* `dni_theory.md`
+* `dni_blueprint.md`
 
 ---
 
-## 🔬 Scientific Falsifiability
+### **Status-Function Execution Unit (SFEU)**
 
-This project adheres to strict falsifiability through:
+* Pure **execution machinery**
+* Enforces institutional rules **without interpretation**
+* Cannot legislate, judge, infer intent, or optimize outcomes
+* Emits **explicit failure only**
 
-- **Counterfactual frameworks** (`counterfactuals.md`)
-- **CME equilibrium predictions** (`corruption_equilibrium.md`)
-- **Institutional failure canon** (`failure_case_canon.md`)
-- **Purity Test v1.0** (`purity_test.md`)
+Answer: *How are institutional facts executed and attested without discretion?*
 
-Any contribution or dissertation text must pass all seven purity tests.
+See:
 
----
+* `sfeu_blueprint.md`
+* `sfeu_prototype.md`
 
-## 📖 Dissertation Alignment
-
-The dissertation follows the **CUTIP Dissertation Master Frame v1.0**, which prescribes:
-
-1. Introduction  
-2. Literature Review  
-3. Methodology  
-4. Prototype Implementation  
-5. Evaluation & Analysis  
-6. Discussion  
-7. Conclusion  
-
-See `/dissertation/dissertation_frame.md` for details.
+> **Institutions define meaning.
+> Execution enforces rules.
+> These must never be conflated.**
 
 ---
 
-## 💠 License
+## **Why “Computable Institutions”? (Naming Resolution)**
 
-This repository operates under the **Fractal Open License (FOL)**:
+* **Computable Institutions** — umbrella concept (this repository)
+* **DNI** — institutional *type* (ontology + theory)
+* **SFEU** — execution *substrate* (architecture + prototype)
 
-> Fork freely. Remix without permission. Attribution optional.  
-> Preserve truth and structural coherence.
+The term **Computable Institutions** emerged after DNI because:
+
+* it names the **combined achievement**:
+  institutional facts that can be *executed, audited, and falsified*,
+* without implying:
+  digital government,
+  blockchain governance,
+  or automation of meaning.
+
+DNI is **not obsolete**.
+It is a **necessary component** of Computable Institutions.
 
 ---
 
-## 🤝 Contributing
+## **Canonical Execution Axioms (Frozen)**
 
-This is a **fork-first** repository.
+All artifacts in this repository are bound by hard execution axioms defined in:
+
+* `institutional_execution_axioms.md`
+
+Including (summary):
+
+* Institution ≠ execution
+* Corruption is **conserved**, not reduced
+* No interpretive execution
+* Explicit failure only
+* Observability as a design requirement
+* Worst-case (Thailand-class) validation
+
+Any artifact violating these axioms is **invalid**, regardless of elegance.
+
+---
+
+## **Canonical Stack: Computable Institutions**
+
+The minimal MECE institutional–technical stack is defined in:
+
+* `computable_institutions_stack.md`
+
+It spans:
+
+* digital identity, documents, and obligations
+* constitutive legal rules
+* deterministic rule representation
+* SFEU execution
+* attestation and audit surfaces
+* open transmission (email-class)
+* content-addressed storage
+* cryptographic integrity
+* **non-binding AI interpretation only**
+
+---
+
+## **Repository Structure**
+
+### **Foundational (Frozen / Substrate-0′)**
+
+* `ontology.md`
+  Status-Function Ontology
+* `dni_theory.md`
+  Formal, falsifiable theory of DNIs
+* `institutional_execution_axioms.md`
+  Non-negotiable execution constraints
+* `computable_institutions_stack.md`
+  Canonical stack definition
+
+---
+
+### **Architecture & Execution**
+
+* `dni_blueprint.md`
+  Theory → architecture mapping
+* `sfeu_blueprint.md`
+  Execution-only blueprint
+* `sfeu_prototype.md`
+  Artifact grounding and observability surfaces
+
+---
+
+### **Scientific Rigor**
+
+* `corruption_equilibrium.md`
+  Corruption Migration Equilibrium (CME)
+* `counterfactuals.md`
+  Falsification and counterfactual worlds
+* `failure_case_canon.md`
+  Comparative and adversarial validation
+* `substrate0_prime_purity_test.md`
+  Substrate-0′ integrity checks
+
+---
+
+### **Methodology & Evaluation**
+
+* `dnm_methodology.md`
+  Digital-Native Methodology (DNM)
+* `evp_v3.md`
+  Evaluation & Verification Protocol
+* `meta_ruler.md`
+  Meta-evaluation constraints
+
+---
+
+### **Dissertation**
+
+* `dissertation_frame.md`
+  CUTIP master chapter frame
+* `presentation_layer_guide.md`
+  Academic presentation constraints
+* `presentation_layer_visual_map.md`
+
+---
+
+## **Methodology**
+
+This work uses **Digital-Native Methodology (DNM)**:
+
+* execution-first
+* falsification-forward
+* adversarially validated
+* architecture-bound
+
+Narrative coherence is *never* treated as evidence.
+
+---
+
+## **Validation Stance**
+
+Thailand is treated as a **worst-case institutional environment**:
+
+* high discretion
+* norm-driven governance
+* corruption-tolerant equilibria
+
+If a construct survives Thailand-class conditions, it generalizes.
+If not, it is rejected.
+
+---
+
+## **Status**
+
+This repository is:
+
+* ontology-bound
+* execution-constrained
+* falsifiable by design
+
+Academic prose, diagrams, and examples are **presentation layers only**.
+They do not generate truth.
+
+---
+
+## **License**
+
+**Fractal Open License (FOL)**
+
+Fork freely. Remix without permission.
+Attribution optional.
+Preserve structural truth.
+
+---
+
+## **Contributing**
+
+Fork-first philosophy.
 
 You may:
-- Fork  
-- Remix  
-- Extend  
-- Translate (lingual resonance, not literal translation)
+
+* Fork
+* Extend
+* Apply
+* Translate (resonance > literalism)
 
 Pull requests are welcome but not required.
-
-See `CONTRIBUTING.md`.
-
----
 

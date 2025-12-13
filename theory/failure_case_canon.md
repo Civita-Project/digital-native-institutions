@@ -1,296 +1,271 @@
-## **failure_case_canon.md**
+# **Failure Case Canon**
 
-### *Failure Case Canon for Protocol-Based Governance (v1.0)*
+### *Institutional Breakdown Patterns · CME-Aligned · Execution-Bound*
 
-*(Frozen as core reference for DNI theory, NSU design, EVP v2.0, and Chapter 2/3 literature integration.)*
-
----
-
-# **Failure Case Canon v1.0**
-
-**Comparative Failure Modes • Institutional Drift • Protocol Limits • Extracted Design Principles**
-
-This canon clarifies the **failure landscape** for protocol-based governance and identifies how NSU/DNI avoid, absorb, or transform those failures. It forms the empirical spine of Chapter 2 (literature) and methodological justification in Chapter 3.
-
-The guiding logic:
-
-> **A protocol-based system is only as strong as the institutional, evidentiary, and interpretive environments into which it is deployed.**
-
-We analyze **six global cases** and extract **cross-case structural principles**.
+**Version 2.0 — Structural · Adversarial · Non-Narrative**
 
 ---
 
-# **1. Estonia — Success with Structural Constraints**
+## **0. Epistemic Status**
 
-Estonia is the closest real-world example to a proto-DNI at national scale. Its success—and its limits—are instructive.
+This file defines the **Failure Case Canon** for the dissertation.
 
-## **1.1 Success Factors**
+It is **not** a literature summary.
+It is **not** a historical narrative.
+It is a **structural comparator**.
 
-* national digital identity (98% penetration)
-* tamper-proof X-Road for secure data exchange
-* strict domain segmentation (protocolize admin, preserve judicial discretion)
-* high-trust political culture
-* small homogeneous population
+The canon exists to answer one question only:
 
-## **1.2 Structural Constraints**
+> **What recurring failure patterns emerge when institutional facts are digitized without correct separation of ontology, execution, and governance?**
 
-* **Not** a fully protocolized system:
+This file operates at **Substrate-1** and is invalid if it contradicts:
 
-  * human agencies still exercise judgment
-  * interpretive law remains off-protocol
-* relies on stable political/legal consensus
-* protocol is only a *transport layer*, not constitutive logic
-
-## **1.3 Implications for NSU**
-
-* Estonian constraints show **why NSU must include a status-function interpreter**, not just secure messaging.
-* Estonia succeeds because institutional ambiguity is small—**NSU must work where ambiguity is high (Thailand).**
+* `ontology.md`
+* `dni_theory.md`
+* `dni_blueprint.md`
+* `sfeu_blueprint.md`
+* `corruption_equilibrium.md`
+* `counterfactuals.md`
 
 ---
 
-# **2. Aadhaar (India) — Identity Drift & Misuse**
+## **1. Role of the Failure Case Canon**
 
-Aadhaar is the largest digital ID program in history—but it reveals the **dark side of identity incompleteness**.
+The Failure Case Canon is used to:
 
-## **2.1 Key Failures**
+1. **Validate boundary conditions** of DNI and SFEU
+2. **Test CME predictions** against real-world breakdowns
+3. **Expose category errors** in “digital governance” systems
+4. **Provide adversarial comparators** for empirical chapters
 
-* identity binding drift: biometrics mismatch, false positives/negatives
-* service exclusion: welfare beneficiaries locked out
-* coercive overreach: Aadhaar used beyond original design
-* weak attestation: offline devices + fake operators
+It does **not**:
 
-## **2.2 Why It Failed Structurally**
-
-* identity was treated as **totalizing**, not **minimal**
-* attestation chain unbounded
-* drift in institutional interpretation of what Aadhaar should do
-* no exception mechanism → humanitarian harm
-
-## **2.3 Lessons for NSU/DNI**
-
-* identity must be **MVLP (minimum viable legal persona)**
-* attestation must be **constrained and accountable**, not arbitrary
-* exceptions must preserve **human dignity**
-* NSU must avoid centralizing identity into a single role
+* rank countries,
+* evaluate policy success,
+* assign blame,
+* propose reforms.
 
 ---
 
-# **3. DAO Ecosystem — Protocol Capture & Governance Collapse**
+## **2. Canon Construction Rule (Hard Constraint)**
 
-Decentralized Autonomous Organizations demonstrate the **pure protocol fantasy** at the extreme.
+A case is admissible **only if**:
 
-## **3.1 Failure Symptoms**
+1. It involves **administrative institutions** (not markets, not courts, not politics)
+2. Digital systems were introduced with claims of:
 
-* code-as-law absolutism → catastrophic rigid failures
-* governance token oligarchy → plutocratic capture
-* inability to amend protocols without forking
-* economic exploits despite “audits”
-* loss of legitimacy → community exits
+   * efficiency,
+   * transparency,
+   * corruption reduction,
+   * automation
+3. The system failed **structurally**, not merely operationally
+4. Failure can be mapped to:
 
-## **3.2 Structural Causes**
+   * ontology violation,
+   * execution leakage,
+   * governance substitution,
+   * or CME contradiction
 
-* no adjudication boundary
-* no institutional reality layer (everything collapsed into protocol)
-* incentives misaligned with public governance
-* absence of exception/rescue mechanisms
-
-## **3.3 Lessons for NSU**
-
-* NSU must **never** collapse adjudication into computation
-* exceptions are not “bugs”—they are a required domain
-* governance of drift must be **institutional**, not token-based
-* the state must retain the normative authority DAO systems lack
+Cases that fail these criteria are excluded.
 
 ---
 
-# **4. UK Government IT Disasters — Lock-In, Drift & Entropy**
+## **3. Failure Pattern Taxonomy (MECE)**
 
-The UK’s repeated IT modernization failures (NHS National Programme for IT, Universal Credit, etc.) show why **digitizing legacy complexity fails almost everywhere**.
-
-## **4.1 Failure Dynamics**
-
-* over-centralized architectures
-* massive vendor lock-in
-* systems reflect legacy bureaucracy rather than redesign it
-* requirements freeze → reality drifts → system breaks
-* multi-year projects deliver obsolete outcomes
-
-## **4.2 Structural Mistake**
-
-* digitize the mess instead of redesigning the institution
-* no protocol invariants → system floats in interpretive ambiguity
-* exception handling undefined → human workarounds proliferate
-
-## **4.3 Lessons for NSU**
-
-* NSU must start from **constitutive rules**, not digitize existing forms
-* protocol invariants must be **fixed and auditable**
-* exception layer must be designed from day one
-* NSU prevents drift by freezing institutional facts → rules → transitions
+All admissible failures fall into **five mutually exclusive classes**.
 
 ---
 
-# **5. Singapore — Adjudication Boundary & Protocol Constraint**
+## **FP-A: Ontological Collapse**
 
-Singapore’s digital governance is highly efficient but reveals the **boundary where protocol stops**.
+**Pattern**
 
-## **5.1 Where Protocol Works**
+* Institutional meaning is implicitly encoded in software
+* Status-functions are treated as data fields
+* Context C is flattened or ignored
 
-* structured administrative domains (tax, immigration, licensing)
-* centralized data registers
-* strong identity infrastructure
+**Observed Outcomes**
 
-## **5.2 Where Protocol Fails**
+* Rule brittleness
+* Semantic drift inside execution
+* Unresolvable edge cases
 
-* moral or political domains
-* high-discretion adjudication
-* polycentric interpretation of norms
+**Canonical Examples**
 
-## **5.3 Why This Matters**
+* UK benefits automation failures
+* Rule-based eligibility engines without legal context
 
-Singapore is the clearest demonstration that:
+**Violation Detected**
 
-> **Protocol is powerful for administration but must never swallow adjudication.**
-
-This validates the NSU design boundary.
-
----
-
-# **6. Thailand — Stress Case for Institutional Friction**
-
-Thailand shows the kind of environment where NSU/DNI must prove themselves:
-**high friction, high drift, high corruption, low rule formalization, entrenched workarounds.**
-
-## **6.1 Failure Dynamics in Current State**
-
-* parallel and shadow workflows
-* trust anchored in people, not rules
-* non-repudiation absent → deniability everywhere
-* discretionary choke points create corruption hotspots
-* failed IT modernization → duplication, fragmentation, inconsistencies
-
-## **6.2 Why Thailand Breaks Almost All Digital Reforms**
-
-* institutionalized ambiguity
-* discretion is power
-* workflows shallowly digitized
-* manual override accepted as norm
-
-## **6.3 Why Thailand Is the Perfect NSU Laboratory**
-
-* friction is extremely measurable
-* corruption has predictable patterns (migration equilibrium)
-* high upside for protocol-first redesign
-* DNI primitives (ID, docs, money) are culturally resonant
-* NSU solves exactly the structural weaknesses
+* Searlean status-function separation
+* DNI constitutive rules
 
 ---
 
-# **7. Extracted Structural Principles Across Cases**
+## **FP-B: Execution–Interpretation Conflation**
 
-These are the hard-won principles shaping NSU/DNI.
+**Pattern**
 
----
+* Execution layer resolves ambiguity
+* Protocol “decides” outcomes
+* Exceptions are minimized for throughput
 
-## **7.1 Principle 1 — Protocolization Works Only for Administrative Institutional Facts**
+**Observed Outcomes**
 
-Attempting to protocolize:
+* Apparent efficiency
+* Suppressed disputes
+* Invisible discretionary power
 
-* morality
-* adjudication
-* political reasoning
-  → results in DAO-like collapse.
+**Canonical Examples**
 
----
+* Algorithmic welfare scoring systems
+* “Smart” rule engines with override logic
 
-## **7.2 Principle 2 — Minimal Identity Is a Non-Negotiable**
+**Violation Detected**
 
-Aadhaar proves that identity overspecification:
-
-* causes exclusion
-* amplifies drift
-* breeds coercion
-
-MVLP is mandatory.
+* SFEU hard prohibitions
+* Counterfactual CF-B1 / CF-B2
 
 ---
 
-## **7.3 Principle 3 — Attestation Chains Must Be Liability-Bound**
+## **FP-C: Corruption Masking (False Cleanliness)**
 
-Unbounded attestation = fraud
-Untracked attestation = undetectable drift
-Unpunished attestation = corruption equilibrium victory
+**Pattern**
 
----
+* Digitalization reduces visible corruption metrics
+* Front-office bribery drops
+* No corresponding rise in contestation or exceptions
 
-## **7.4 Principle 4 — Exceptions Are a Feature, Not a Bug**
+**Observed Outcomes**
 
-All systems that deny exceptions:
+* Clean dashboards
+* Low dispute rates
+* Centralized control surfaces
 
-* collapse (DAOs)
-* or commit harm (Aadhaar)
+**Canonical Examples**
 
-NSU must internalize a safe exception layer.
+* Aadhaar-linked welfare distribution
+* Centralized ID-based entitlement systems
 
----
+**Violation Detected**
 
-## **7.5 Principle 5 — Institutional Drift Is Normal, Not Anomaly**
-
-Estonia + Singapore show controlled drift
-India + UK show uncontrolled drift
-
-NSU must **govern drift**, not pretend it doesn’t exist.
+* CME conservation principle
+* CF-C2 (Disappearance World)
 
 ---
 
-## **7.6 Principle 6 — Digitization Without Institutional Redesign Fails**
+## **FP-D: Discretion Persistence Under Digital Veneer**
 
-UK proves digitizing legacy bureaucracy ≠ modernization.
+**Pattern**
 
-NSU is **institutional redesign**, not digitization.
+* Digital front-ends exist
+* Back-office discretion remains intact
+* Manual overrides are common but hidden
 
----
+**Observed Outcomes**
 
-## **7.7 Principle 7 — Evidence Before Rules, Rules Before Transitions**
+* Corruption remains front-office
+* No migration to attestation or governance layers
+* Audit reconstruction fails intermittently
 
-This is the order of legitimacy.
+**Canonical Examples**
 
-Protocols that reverse the order collapse.
+* Thai administrative IT systems
+* Legacy e-government portals
 
----
+**Violation Detected**
 
-## **7.8 Principle 8 — Thailand Is the Ultimate Validation Environment**
-
-If NSU works in Thailand,
-it will work anywhere.
-
-This becomes the thesis’ strongest empirical claim.
-
-
-**7.9 Principle 9 — Evaluator-Driven Epistemic Drift**
-A new failure mode:
-* external evaluative frameworks (awards, rankings, donor metrics, peer review fashions) subtly reshape system design to satisfy them,
-* rather than the system being anchored to its own institutional ontology and objectives.
-
-Symptoms:
-* mechanisms tuned to “sound Nobel-like / Turing-like / governance-fashionable”
-* rhetorical mimicry of dominant disciplines
-* design choices justified by prestige, not institutional necessity
-
-NSU/DNI must treat all evaluators as **downstream** from Substrate-0′.
-Any sign of evaluator-driven design is a canonized failure mode.
-
+* DNI necessary conditions (N4, N5)
+* CF-A1 (Hidden Discretion World)
 
 ---
 
-# **Frozen**
+## **FP-E: Governance Substitution Collapse**
 
-This file is now the canonical empirical and comparative basis for:
+**Pattern**
 
-* DNI Theory (Project File 2)
-* Corruption Equilibrium Model (Project File 3)
-* NSU Prototype (Project File 5)
-* EVP v2.0 (File 6)
-* Dissertation Chapters 1–3
-* All defense and critique responses
+* Digital system replaces human governance
+* Exception routing is bypassed
+* Contestation channels disappear
+
+**Observed Outcomes**
+
+* Reduced accountability
+* Centralized authority
+* Institutional brittleness
+
+**Canonical Examples**
+
+* DAO governance failures
+* Automated sanctioning systems
+
+**Violation Detected**
+
+* Ontology boundary
+* DNI domain eligibility
+* CF-D1 boundary test
+
+---
+
+## **4. Thailand as Canonical Stress Case**
+
+Thailand is treated as:
+
+* high discretion,
+* high corruption pressure,
+* low trust equilibrium.
+
+Thailand is **not** a case study.
+It is a **destructive validator**.
+
+Any system that:
+
+* claims DNI,
+* claims SFEU execution,
+* but fails CME migration in Thailand,
+
+is **invalid globally**.
+
+Thailand anchors:
+
+* FP-D (Discretion persistence)
+* FP-C (Corruption masking)
+
+---
+
+## **5. Canon → CME Mapping**
+
+| Failure Pattern | CME Prediction | Outcome             |
+| --------------- | -------------- | ------------------- |
+| FP-A            | CME undefined  | Ontology violation  |
+| FP-B            | CME suppressed | Category error      |
+| FP-C            | CME falsified  | Measurement failure |
+| FP-D            | CME absent     | Execution leakage   |
+| FP-E            | CME distorted  | Governance collapse |
+
+If a case does **not** map cleanly, the theory is wrong.
+
+---
+
+## **6. Use in Dissertation**
+
+The Failure Case Canon is used to:
+
+* structure Chapter 2 (comparative analysis),
+* adversarially test DNI claims,
+* validate CME falsifiability,
+* constrain generalization.
+
+It is **not** used to argue novelty by enumeration.
+Novelty is proven by **survival under comparison**.
+
+---
+
+## **7. Status**
+
+This canon is **frozen** unless:
+
+* DNI theory changes,
+* CME is falsified,
+* or new failure patterns emerge that do not fit FP-A → FP-E.
 

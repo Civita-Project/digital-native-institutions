@@ -1,36 +1,59 @@
-## **CUTIP Dissertation Master Frame (v1.0)**
+## **CUTIP Dissertation Master Frame (v1.2)**
 
-**Status: Frozen as the canonical dissertation skeleton for all future drafting.
-All chapter scaffolding must conform to this file.
+**Status: Frozen as the canonical dissertation skeleton for all future drafting.  
+All chapter scaffolding must conform to this file.  
 All other project files plug into this frame.**
 
 ---
 
-# **CUTIP Dissertation Master Frame (v1.0)**
+# **CUTIP Dissertation Master Frame (v1.2)**
 
-### *Updated with Searlean Status Functions, DNI Theory v1.0, NSU Architecture, CME, Counterfactuals, and EVP v2.0.*
+### *Updated with Searlean Status Functions, DNI Theory v1.1, SFEU Architecture, CME, Counterfactuals, and EVP v2.0.*
 
-This is the **meta-frame** of the dissertation—
+This is the **meta-frame** of the dissertation—  
 the **blueprint** into which every chapter, argument, method, and artifact fits.
 
-Everything in this file is **chapter-ready**, **examiner-proof**, and **aligned to top-tier academic standards** while remaining true to the substrate-0/1 foundations.
+Everything in this file is **chapter-ready**, **examiner-aware**, and **aligned to top-tier academic standards**  
+**without diluting Substrate-0′ commitments**.
 
 ---
 
-# **I. CHAPTER 1 — INTRODUCTION (Updated with Status-Function Framing)**
+## **Epistemic Positioning & Presentation Boundary**
 
-## **1.1 Problem Statement (Rewritten)**
+This dissertation is **constitutive institutional research**, not descriptive analysis.
+
+Accordingly:
+
+1. **Substrate-0′ definitions** (ontology, DNI conditions, SFEU boundaries) have epistemic priority.
+2. Chapters, citations, and academic conventions operate as a **presentation layer** to:
+   * render the work legible to evaluators,
+   * enable comparison with existing literature,
+   * satisfy CUTIP examination requirements.
+3. No chapter may reframe, relativize, or weaken:
+   * the status-function ontology,
+   * DNI necessary and sufficient conditions,
+   * SFEU execution boundaries,
+   * CME equilibrium logic.
+4. Where legacy literature conflicts with constitutive definitions herein, such tension is treated as  
+   **evaluation-regime mismatch**, not theoretical inconsistency.
+
+This framing ensures rigor **without dilution**, and compatibility **without concession**.
+
+---
+
+# **I. CHAPTER 1 — INTRODUCTION (Status-Function Framing)**
+
+## **1.1 Problem Statement**
 
 * The core failure in Thailand (and most developing states) is the inability to reliably create, maintain, and enforce **institutional facts** (Searle: “X counts as Y in context C”).
 * Administrative corruption, friction, and drift arise from:
+  * unstable or ambiguous status-function assignments,
+  * weak evidentiary environments,
+  * discretionary bottlenecks,
+  * low institutional coherence.
 
-  * unstable or ambiguous status-function assignments
-  * weak evidentiary environments
-  * discretionary bottlenecks
-  * low institutional coherence
-
-**NSU and DNI address the problem at the level where the failure originates:
-the *creation* and *maintenance* of institutional facts.**
+**DNI and SFEU address the problem at the level where the failure originates:  
+the creation and maintenance of institutional facts.**
 
 ---
 
@@ -38,60 +61,57 @@ the *creation* and *maintenance* of institutional facts.**
 
 Introduce:
 
-* brute facts vs. institutional facts
-* status-function assignments (SFAs)
-* constitutive rules (“X counts as Y in C”)
-* the gap between institutional facts and their digital representations
+* brute facts vs. institutional facts,
+* status-function assignments (SFAs),
+* constitutive rules (“X counts as Y in C”),
+* the gap between institutional facts and their digital representations.
 
-And show why current digital reforms fail:
+Show why current digital reforms fail:
 
-> They digitize administrative workflows **without digitizing the status functions that make those workflows meaningful.**
+> They digitize administrative workflows without digitizing the status functions that make those workflows meaningful.
 
-This justifies the need for NSU and DNI.
+This justifies the need for DNI and SFEU.
 
 ---
 
 ## **1.3 Introducing DNI (Digital Native Institutions)**
 
-* A **theoretical category** (not tech)
-* Defined by **necessary and sufficient conditions**
-* DNI = institutions whose constitutive rules and status functions are:
+* A **theoretical category**, not a technology.
+* Defined by **necessary and sufficient conditions**.
+* DNI are institutions whose constitutive rules and status functions are:
+  * explicitly defined,
+  * digitally representable,
+  * protocol-enforceable,
+  * end-to-end auditable.
 
-  * explicitly defined
-  * representable in digital form
-  * enforceable through protocol-bound transitions
-  * auditable end-to-end
-
-Here, reference Project File #2.
+(Reference: `dni_theory.md`)
 
 ---
 
-## **1.4 Introducing NSU (National Service Unit)**
+## **1.4 Introducing SFEU (Status-Function Execution Unit)**
 
-* Not an ontology of the state
-* Not a “digital ministry”
-* Not an IT platform
+* Not an ontology of the state.
+* Not a “digital ministry.”
+* Not an IT platform.
 
-NSU = **the institutional infrastructure that operationalizes status functions** using:
+SFEU is **institutional execution infrastructure** that operationalizes status functions via:
 
-* attestation
-* state-transition rules
-* exception governance
-* evidence layers
-* minimal identity bindings
+* attestation,
+* state-transition rules,
+* exception governance,
+* evidence layers,
+* minimal identity bindings.
 
-Reference Project File #7.
+(Reference: `sfeu_blueprint.md`)
 
 ---
 
 ## **1.5 Research Questions**
 
-Examples:
-
-* RQ1: Under what conditions can national institutions become “digital native” in the Searlean sense?
+* RQ1: Under what conditions can institutions become digital native in the Searlean sense?
 * RQ2: How can institutional facts be stably represented, enforced, and audited in high-friction states?
-* RQ3: What equilibrium changes occur when administrative discretion is protocol-constrained?
-* RQ4: How can NSU be prototyped and empirically evaluated?
+* RQ3: What equilibrium shifts occur when administrative discretion is protocol-constrained?
+* RQ4: How can SFEU be prototyped and empirically evaluated?
 
 ---
 
@@ -99,265 +119,160 @@ Examples:
 
 This dissertation contributes:
 
-* A **formal, falsifiable theory of DNI**
-* A **protocol-grounded architectural model (NSU)**
-* A **game-theoretic model of corruption migration (CME)**
-* A **counterfactual framework** for empirical discrimination
-* A **minimal working prototype**
-* A **new bridge between institutional theory and protocol engineering**
+* A **formal, falsifiable theory of Digital Native Institutions**,
+* A **status-function execution architecture (SFEU)**,
+* A **game-theoretic model of corruption migration (CME)**,
+* A **counterfactual falsification framework**,
+* A **minimal working prototype**,
+* A **new bridge between institutional theory and protocol engineering**.
 
 ---
 
-# **II. CHAPTER 2 — LITERATURE REVIEW (Updated with Canon + Maps)**
-
-Chapter 2 now has a **coherent map**, not a list.
-
----
+# **II. CHAPTER 2 — LITERATURE REVIEW (Mapped, Not Enumerated)**
 
 ## **2.1 Status-Function Theory (Searle)**
 
-Foundation of institutional facts, constitutive rules, SFAs, context conditions.
-Bridge: why digital transformations fail → misaligned SFAs.
+Institutional facts, constitutive rules, SFAs, and context conditions.  
+Explanation of why digitization fails when SFAs are implicit or unstable.
 
 ---
 
 ## **2.2 Institutional Economics (North, Ostrom, Williamson)**
 
-* Transaction cost theory
-* Institutional drift
-* Rule evolution
-* Polycentric governance
-
-Bridge: NSU = institutional infrastructure that stabilizes rule enforcement.
+Transaction costs, institutional drift, rule evolution, and polycentric governance.  
+Bridge: SFEU as institutional execution and enforcement infrastructure.
 
 ---
 
 ## **2.3 Digital Government & DPI Literature**
 
-* Aadhaar
-* Estonia X-Road
-* Singapore
-* UK IT failures
-* DAO governance failures
-
-Bridge via Project File #9 (Failure Canon).
-This is the empirical justification for NSU boundaries.
+Cases including Aadhaar, Estonia X-Road, Singapore, UK IT failures, and DAO governance.  
+Synthesized through the Failure Canon.
 
 ---
 
-## **2.4 Science & Technology Studies (Winner, Latour, STS critique)**
+## **2.4 Science & Technology Studies (STS)**
 
-* Artifacts have politics
-* Sociotechnical co-construction
-* Drift and adaptation
-* Power encoded in design
-
-Bridge: NSU must be designed to reveal, not hide, its political assumptions.
+Artifacts as political, sociotechnical co-construction, drift, and power encoded in design.  
+Implication: SFEU must surface, not conceal, institutional assumptions.
 
 ---
 
 ## **2.5 Algorithmic Governance & Protocol Studies**
 
-* Code as Law (Lessig)
-* Blockchain governance
-* Formal protocol invariants
-* Verification vs. truth
-
-Bridge: why NSU separates **evidence**, **attestation**, and **status-functions**.
+Code as law, verification vs. truth, formal invariants.  
+Clarifies why SFEU separates evidence, attestation, and status-functions.
 
 ---
 
 ## **2.6 Game Theory of Corruption & Institutional Failure**
 
-Bridge: CME model (Project File #3).
+Foundation for CME.
 
 ---
 
 ## **2.7 Gap in the Literature**
 
-There is **no integrated framework** that:
+No existing framework simultaneously:
 
-* defines status functions formally
-* operationalizes them through protocol invariants
-* incorporates drift/adaptation
-* includes exception governance
-* is falsifiable
+* defines status functions formally,
+* operationalizes them through protocol invariants,
+* incorporates drift and exception governance,
+* remains falsifiable.
 
-This is the open gap your dissertation fills.
-
----
-
-# **III. CHAPTER 3 — METHODOLOGY (Corrected Epistemics)**
-
-This is where most dissertations fail.
-Yours becomes extremely strong.
+This dissertation fills that gap.
 
 ---
+
+# **III. CHAPTER 3 — METHODOLOGY**
 
 ## **3.1 Epistemic Justification for Hybrid Methodology**
 
-Methodology now rests on a **triangulated epistemic foundation**:
+Methodology integrates:
 
-### **(a) Searlean Institutional Analysis**
+* Searlean institutional analysis,
+* Design Science Research,
+* game-theoretic modeling,
+* comparative institutional analysis,
+* counterfactual reasoning.
 
-Clarifies:
-
-* what institutional facts exist
-* how they are constituted
-* how they drift
-* what can and cannot be digitized
-
-### **(b) Design Science Research (DSR)**
-
-Provides:
-
-* artifact construction
-* relevance → rigor cycles
-* evaluation via prototypes
-
-### **(c) Game-Theoretic Modeling**
-
-Provides:
-
-* equilibrium prediction
-* corruption migration analysis
-
-### **(d) Comparative Institutional Analysis**
-
-Provides:
-
-* cross-case testing via Failure Canon (File #9)
-
-### **(e) Counterfactual Reasoning**
-
-Provides:
-
-* falsifiability
-* testable implications
-* empirical discriminators
-
-The chapter argues **why each epistemic tool is necessary**
-and **what each cannot do**.
+Each method is justified by necessity and bounded by explicit limits.
 
 ---
 
 ## **3.2 Data Sources**
 
-* field observations
-* interviews
-* administrative process traces
-* protocol simulations
-* NSU pilot domain (business registration)
+* field observations,
+* interviews,
+* administrative process traces,
+* protocol simulations,
+* SFEU pilot domain (e.g. business registration).
 
 ---
 
 ## **3.3 Method Steps**
 
-### **Step 1:** Institutional SFA decomposition
-
-(Find all “X counts as Y in C” in the domain.)
-
-### **Step 2:** Friction & drift mapping
-
-Using CME.
-
-### **Step 3:** Construct NSU Minimal Prototype
-
-(Project file #5.)
-
-### **Step 4:** Evaluate Against Counterfactual Framework
-
-(Project file #4.)
-
-### **Step 5:** Compare Against Failure Canon
-
-(Project file #9.)
-
-### **Step 6:** Assess If System Meets DNI Conditions
-
-(Project file #8.)
+1. Institutional SFA decomposition.  
+2. Friction and drift mapping (CME).  
+3. SFEU minimal prototype construction.  
+4. Counterfactual evaluation.  
+5. Failure Canon comparison.  
+6. DNI condition verification.
 
 ---
 
-# **IV. WHERE THEORY & ARTIFACTS SIT**
+# **IV. THEORY–ARTIFACT INTEGRATION**
 
-## **DNI Theory (File #2) → Chapter 1 + 2 + 3**
-
-* Introduced in Chapter 1
-* Theoretically framed & contrasted in Chapter 2
-* Operationalized in Chapter 3
-
-## **NSU (Files #5 + #7) → Chapter 1 + 3**
-
-* Defined in Chapter 1
-* Prototyped in Chapter 3
-
-## **CME (File #3) → Chapter 3 + Results**
-
-* Part of method & results interpretation
-
-## **Counterfactuals (File #4) → Chapter 3 + Discussion**
-
-* Grounds falsifiability
-
-## **Failure Canon (File #9) → Chapter 2 + Discussion**
-
-* Comparative logic
-
-## **EVP v2.0 (File #6) → meta-structure**
-
-* Ensures all chapters meet top-tier standards
+* DNI Theory → Chapters 1–3  
+* SFEU Architecture → Chapters 1 & 3  
+* CME → Chapter 3 & Results  
+* Counterfactuals → Chapter 3 & Discussion  
+* Failure Canon → Chapter 2 & Discussion  
+* EVP v2.0 → Meta-structure
 
 ---
 
-# **V. HOW FALSIFIABILITY INTEGRATES**
+# **V. FALSIFIABILITY**
 
-Falsifiability is built through:
+Falsifiability is ensured through:
 
-* explicit hypotheses (H1–H4)
-* counterfactual outcomes
-* observational indicators
-* measurable differences between DNI vs. non-DNI domains
-
-This transforms your dissertation from conceptual → scientific.
+* explicit hypotheses,
+* counterfactual outcomes,
+* observational indicators,
+* measurable DNI vs. non-DNI contrasts.
 
 ---
 
-# **VI. HOW THE PROTOTYPE INTEGRATES**
+# **VI. PROTOTYPE INTEGRATION**
 
-The NSU minimal prototype:
+The SFEU prototype provides:
 
-* provides empirical evidence
-* validates DSR
-* demonstrates feasibility
-* anchors the CME model
-* proves status-function operationalization
-
-This is essential at MIT-level rigor.
+* empirical grounding,
+* DSR validation,
+* feasibility demonstration,
+* anchoring for CME predictions.
 
 ---
 
-# **VII. HOW COUNTERFACTUALS INTEGRATE**
+# **VII. COUNTERFACTUAL INTEGRATION**
 
-Counterfactuals determine:
+Counterfactuals define:
 
-* what would falsify DNI
-* what would falsify NSU
-* what empirical patterns differentiate them
-* how to evaluate success/failure in the Thai context
+* falsification thresholds,
+* empirical discriminators,
+* evaluation criteria for success or failure.
+
+---
+
+# **VIII. AWARD PATTERN INTEGRATION (Presentation Layer Only)**
+
+Award patterns are used solely for:
+
+* narrative alignment,
+* diffusion and evaluation framing.
+
+They do **not** define ontology, theory, or architecture.
 
 ---
 
-**VIII. Award Pattern Integration (Presentation Layer Only)**
-Award extraction (Nobel, Turing, Gödel/Knuth, UNPSA, NAE) is used solely to:
-
-* align the *presentation* of the dissertation with recognizable excellence patterns,
-* structure narrative framing for different audiences.
-  It is **not** used to:
-* define the ontology of DNI/NSU,
-* shape the design of the theory or architecture,
-* override Substrate-0′ constraints.
-  The theoretical and architectural cores (ontology, DNI, NSU, CME, counterfactuals) remain primary.
-  Award rulers live strictly in the **meta-evaluation and diffusion layer**.
-
----
+**END OF FILE — dissertation_frame.md**

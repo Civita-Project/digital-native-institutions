@@ -1,289 +1,259 @@
-# **DNI Blueprint v1.0**
-
-**Definition • Conditions • Classification • Diagnostic Rubric • Cross-National Applicability**
-
-This blueprint formalizes **Digital Native Institutions (DNI)** in a way that is:
-
-* non-utopian
-* falsifiable
-* substrate-correct
-* free of category errors
-* evaluable across countries
-* coherent with the NSU Blueprint and DNI Theory (Project File 2)
-
-This is now the *canonical* definition of DNI for all dissertation chapters and implementations.
+### *Digital Native Institution (DNI): Theory → Architecture Blueprint (v2.0)*
 
 ---
 
-# **1. DNI Definition (Formal + Architectural)**
+# **Digital Native Institution (DNI) Blueprint**
 
-## **1.1 Formal Definition (Status-Function Correct)**
+### *Constitutive Institutional Form → Executable Architecture Mapping*
 
-A **Digital Native Institution (DNI)** is:
-
-> **An institution whose constitutive rules are directly executable as protocol-governed state transitions, such that institutional facts are generated through attested evidence, deterministic rule-application, and auditable state-change, without recourse to hidden discretion or off-protocol workflows.**
-
-In Searle terms:
-
-* Institutional facts are produced by explicit mappings:
-  **X (evidence) counts as Y (institutional fact) in context C (domain)**
-* These mappings are **computationally enforceable**
-* Constitutive rules → Executable rules
-* Brute-fact evidence → Verifiable attestations
-* Interpretive discretion → Bounded exception layer
-
-DNIs **do not** replace human judgment; they **contain** its domain.
+**Version 2.0 — Ontology-Constrained · SFEU-Executed · CME-Aligned**
 
 ---
 
-## **1.2 Architectural Definition (Institutional Engineering)**
+## **0. Epistemic Status**
 
-A DNI is an institution that satisfies:
+This file defines **how DNI theory is realized architecturally**.
 
-> **Administrative transactions are executed via protocolized workflows in which identity, evidence, rules, and transitions are machine-verifiable, human auditable, and corruption-resistant by design.**
+It does **not** introduce new institutional meaning, policy intent, or governance authority.
+It **maps** the **constitutive conditions of a DNI** (from `dni_theory.md`) onto:
 
-Architectural requirements:
+* execution boundaries,
+* architectural components,
+* observable system surfaces.
 
-* identity binding via MVLP attributes
-* document integrity via hash/signature
-* evidence → rule → transition pipeline
-* deterministic computational execution
-* exception pathways separately governed
-* audit by design (not by policy)
+This blueprint operates at **Substrate-1 (institutional realization)** and is invalid if it contradicts:
 
-**Key:**
-DNI = institution whose *administrative substrate* is digital-native, not digitally retrofitted.
-
----
-
-# **2. Institutional Classification Framework**
-
-This classification framework categorizes any government institution, globally, along five axes determining DNI eligibility.
+* `ontology.md`
+* `dni_theory.md`
+* `computable_institutions_tech_stack.md`
 
 ---
 
-## **2.1 Axis 1 — **Rule Executability**
+## **1. Position in the System**
 
-Question: *Can constitutive rules be expressed as deterministic, bounded, non-interpretive logic?*
+| Layer             | Role                                                   |
+| ----------------- | ------------------------------------------------------ |
+| **Ontology**      | Defines what an institutional fact *is*                |
+| **DNI Theory**    | Defines what qualifies as a Digital Native Institution |
+| **DNI Blueprint** | Maps theory → architecture                             |
+| **SFEU**          | Executes status-function transitions                   |
+| **CME**           | Predicts corruption relocation under execution         |
 
-Categories:
-
-* **E1 (Executable):** Complete formalization possible
-* **E2 (Semi-executable):** Formalizable core, interpretive fringes
-* **E3 (Non-executable):** Rules rely heavily on contextual interpretation
-
-DNI requires: **E1 or E2 (with exception layer)**.
-
----
-
-## **2.2 Axis 2 — **Evidence Verifiability**
-
-Question: *Can required evidence be reliably attested by devices/humans/institutions with bounded liability?*
-
-Categories:
-
-* **V1:** Fully verifiable evidence
-* **V2:** Partially verifiable, structured evidence
-* **V3:** Ambiguous or subjective evidence
-
-DNI requires: **V1 or V2**.
+This file is the **bridge** between theory and execution.
 
 ---
 
-## **2.3 Axis 3 — **Identity Minimality**
+## **2. DNI vs SFEU (Hard Separation)**
 
-Question: *Can the domain operate using **minimum viable legal persona (MVLP)** attributes?*
+**DNI**
+= *Institutional form*
+= rules, status-functions, and constitutive conditions
 
-Categories:
+**SFEU**
+= *Execution machinery*
+= deterministic enforcement of X → Y-in-C
 
-* **I1:** MVLP sufficient
-* **I2:** Requires enriched identity
-* **I3:** Requires contextual/social identity
-
-DNI requires: **I1**.
-
----
-
-## **2.4 Axis 4 — **Exception Profile**
-
-Question: *Does the domain have a bounded, formalizable exception space?*
-
-Categories:
-
-* **X1:** Exceptions rare + formalizable
-* **X2:** Exceptions moderate + partly formalizable
-* **X3:** Exceptions common or contextual
-
-DNI requires: **X1 or X2** + separate exception governance.
+> **Rule:**
+> DNI defines *what must be true*.
+> SFEU enforces *what is executed*.
+> No architectural component may collapse these roles.
 
 ---
 
-## **2.5 Axis 5 — **State-Transition Purity**
+## **3. Mapping DNI Necessary Conditions → Architecture**
 
-Question: *Does the domain’s output correspond to a discrete institutional fact?*
+### **N1. Identity Binding**
 
-Categories:
+**Theory requirement**
+Cryptographically verifiable identity with non-repudiation.
 
-* **T1:** Clean institutional fact outputs
-* **T2:** Semi-structured outcomes
-* **T3:** Political or moral judgments
+**Architectural realization**
 
-DNI requires: **T1**.
+* Digital Identity Layer (see tech stack Layer 1)
+* Bound to SFEU Identity Verification Module
 
----
+**Explicit non-capabilities**
 
-## **2.6 Combined Classification Table**
-
-| Axis                    | Required for DNI? | Category Allowed | Meaning                                    |
-| ----------------------- | ----------------- | ---------------- | ------------------------------------------ |
-| Rule executability      | Yes               | E1/E2            | Domain must be formalizable                |
-| Evidence verifiability  | Yes               | V1/V2            | Evidence must be attestable                |
-| Identity minimality     | Yes               | I1               | MVLP only                                  |
-| Exception profile       | Yes               | X1/X2            | Edge cases must be bounded                 |
-| State-transition purity | Yes               | T1               | Outputs must be formal institutional facts |
-
-A domain is **DNI-eligible** if and only if it satisfies all 5 axes.
+* Identity does not grant status
+* Identity does not infer intent
 
 ---
 
-# **3. Evaluation Rubric (DNI Readiness Index)**
+### **N2. Document & Evidence Integrity**
 
-To determine readiness, score each axis:
+**Theory requirement**
+Immutable, verifiable institutional evidence.
 
-| Criterion               | Score Range | Weight |
-| ----------------------- | ----------- | ------ |
-| Rule executability      | 0–2         | 25%    |
-| Evidence verifiability  | 0–2         | 20%    |
-| Identity minimality     | 0–2         | 20%    |
-| Exception profile       | 0–2         | 15%    |
-| State-transition purity | 0–2         | 20%    |
+**Architectural realization**
 
-Interpretation:
+* Digital Documents & Evidence Layer (Layer 2)
+* Hash-based integrity, signature provenance
+* Lineage stored in audit ledger
 
-* **8–10:** Fully DNI-ready
-* **6–7:** Conditionally DNI-ready
-* **4–5:** Not currently ready (requires redesign)
-* **0–3:** Fundamentally non-DNI
+**Explicit non-capabilities**
 
-This rubric applies to:
-
-* tax systems
-* business registries
-* land offices
-* licensing agencies
-* immigration systems
-* welfare agencies
-* procurement systems
+* No semantic interpretation
+* No legal sufficiency judgment
 
 ---
 
-# **4. DNI Diagnostic Test (Applied to Any Domain)**
+### **N3. Programmable Settlement**
 
-A government domain passes the **DNI Diagnostic Test** iff:
+**Theory requirement**
+Obligations and outcomes must be machine-verifiable.
 
-## **Test 1 — Formalizability Test**
+**Architectural realization**
 
-Can we write the constitutive rules as machine-verifiable conditions?
-If NO → domain cannot be DNI.
+* Settlement & Obligation Layer (Layer 7)
+* Triggered *only* by successful SFEU execution
 
-## **Test 2 — Attestation Test**
+**Explicit non-capabilities**
 
-Can all required evidence be tied to attestable sources?
-If NO → domain requires partial DNI or hybrid design.
-
-## **Test 3 — Identity Minimality Test**
-
-Can the domain operate on MVLP alone?
-If NO → domain risks identity overreach and coercion.
-
-## **Test 4 — Exception Test**
-
-Can exceptions be isolated into a separate adjudicative module?
-If NO → NSU cannot execute the domain.
-
-## **Test 5 — Institutional Fact Test**
-
-Does the domain produce **institutional facts** (registrations, licenses, approvals)?
-If NO → domain belongs to interpretive institutions.
-
-Only domains that satisfy **all five tests** qualify for DNI/NSU execution.
+* No redistribution logic
+* No policy optimization
 
 ---
 
-# **5. Cross-National Applicability**
+### **N4. Protocol-Governed Transitions**
 
-This is critical: DNI is *not Thailand-specific*.
-The blueprint explicitly generalizes to all administrative states.
+**Theory requirement**
+Administrative actions executed deterministically.
 
----
+**Architectural realization**
 
-## **5.1 Universal Variables**
+* Rule Representation Layer (Layer 3)
+* Context Binding Layer (Layer 4)
+* SFEU Core Execution (Layer 5)
 
-DNI depends on features common to all bureaucracies:
+**Explicit non-capabilities**
 
-* constitutive rules
-* evidence requirements
-* institutional fact outputs
-* identity representation
-* exception handling
-
-Thus DNI applies to:
-
-* unitary states
-* federal states
-* common-law systems
-* civil-law systems
-* developing countries
-* advanced countries
+* No discretion
+* No ambiguity resolution
 
 ---
 
-## **5.2 Country-Dependent Modifiers**
+### **N5. Auditability**
 
-DNI’s implementation varies by:
+**Theory requirement**
+All transitions reconstructible end-to-end.
 
-### **A. Legal Tradition**
+**Architectural realization**
 
-* Civil law → easier constitutive-rule extraction
-* Common law → larger exception domain
+* Audit & Attestation Ledger (Layer 8)
+* Cryptographic, append-only records
 
-### **B. Digital Infrastructure**
+**Explicit non-capabilities**
 
-* Estonia/Singapore → full DNI feasible
-* India/Indonesia → partial DNI feasible
-* Thailand → ideal test case (high-friction + high-corruption + high-potential)
-
-### **C. Administrative Culture**
-
-* High discipline → easier protocol enforcement
-* High discretion → more leak pathways, slower migration
+* No narrative summarization
+* No outcome judgment
 
 ---
 
-## **5.3 Comparative Positioning**
+### **N6. Declared Exception Pathways**
 
-| Country       | DNI Feasibility     | Reason                                                  |
-| ------------- | ------------------- | ------------------------------------------------------- |
-| **Estonia**   | Very high           | Structured rules + digital ID + minimal corruption      |
-| **Singapore** | High                | Strong institutions + digital maturity                  |
-| **Thailand**  | High-medium         | Severe friction → large upside, but corruption migrates |
-| **India**     | Medium              | Strong DPI but bureaucratic drift                       |
-| **Indonesia** | Medium-low          | Identity fragmentation + corruption                     |
-| **U.S.**      | Medium              | Federal fragmentation + legacy systems                  |
-| **China**     | High (but coercive) | Strong enforcement + surveillance risk                  |
+**Theory requirement**
+Explicit handling when X fails to count as Y-in-C.
 
-This prepares the dissertation for a **cross-case generalizability chapter**.
+**Architectural realization**
+
+* Exception Routing Layer (Layer 6)
+* Structured failure signals
+* Governance handoff *outside protocol*
+
+**Explicit non-capabilities**
+
+* No silent override
+* No exception resolution inside execution
 
 ---
 
-# **Frozen**
+## **4. DNI Sufficiency Conditions (Architectural Interpretation)**
 
-This DNI Blueprint is now the authoritative foundation for:
+### **S1 — Fully Protocol-Constrained DNI**
 
-* Chapter 1 (Problem & framing)
-* Chapter 2 (Lit review + conceptual positioning)
-* Chapter 3 (Methodology + institutional analysis)
-* All subsequent implementation and evaluation work
+Architectural signature:
 
-All future designs—including NSU prototype, corruption model, etc.—must conform to this definition.
+* All administrative transitions executed by SFEU
+* Zero discretionary execution surfaces
+* Exceptions always explicit and externalized
+
+### **S2 — Partial Human Judgment DNI**
+
+Architectural signature:
+
+* Human judgment exists *only before* execution
+* All attestations, workflows, and settlements remain protocol-bound
+* No discretionary bypass after submission
+
+---
+
+## **5. Observable System Surfaces**
+
+A valid DNI must expose **measurable surfaces**:
+
+* Protocol conformance ratio
+* Exception frequency & routing patterns
+* Attestation dispute rates
+* Settlement execution traces
+* Audit reconstruction success
+
+These surfaces are required for:
+
+* CME measurement
+* falsification
+* Failure Canon comparison
+
+---
+
+## **6. DNI ↔ CME Coupling**
+
+The DNI blueprint is **CME-load-bearing**.
+
+Only when:
+
+* DNI necessary conditions hold, **and**
+* execution is enforced by SFEU,
+
+does **Corruption Migration Equilibrium** become defined and observable.
+
+Any architecture claiming DNI without CME observability is **incoherent**.
+
+---
+
+## **7. What This Blueprint Explicitly Forbids**
+
+A system claiming DNI **must not**:
+
+* embed interpretation inside execution
+* allow silent exception handling
+* collapse rule definition and execution
+* treat corruption as eliminable rather than migratory
+* rely on AI to generate institutional facts
+
+Violation of any prohibition invalidates the DNI claim.
+
+---
+
+## **8. Relationship to Prototype**
+
+The **SFEU prototype** is a **minimal instantiation** of this blueprint.
+
+Prototype success criteria:
+
+* at least one real X → Y-in-C mapping
+* explicit exception emission
+* full audit reconstruction
+* CME-consistent corruption relocation signals
+
+Anything less is **not** a DNI instantiation.
+
+---
+
+## **9. Status**
+
+This blueprint is **frozen** unless:
+
+* DNI theory changes at Substrate-0′, or
+* empirical falsification contradicts CME under enforced SFEU execution.
+
 

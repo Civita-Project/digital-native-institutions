@@ -1,124 +1,170 @@
 ## **ontology.md**
 
-### *Status-Function Ontology for Digital Institutions (v1.0)*
+### *Status-Function Ontology for Digital Institutions (v1.1)*
 
 ---
 
 # **Status-Function Ontology for Digital Institutions**
 
-### *Version 1.0 (Frozen Foundation)*
+### *Version 1.1 (Frozen Foundation)*
+
+---
+
+## **Ontological Status and Epistemic Role**
+
+This ontology is **constitutive**, not descriptive.
+
+It does not attempt to explain, summarize, or interpret existing institutions.
+It **defines the necessary and sufficient conditions** under which an institutional fact
+*exists*, *binds*, and *executes* in a digital-native environment.
+
+Accordingly:
+
+1. All primitives defined herein operate at **Substrate-0′**.
+2. These definitions are **world-binding**:
+   if a system does not satisfy them, it is *not* a Digital Native Institution (DNI),
+   regardless of surface similarity or institutional naming.
+3. Ontological validity is **not contingent** on:
+   - academic consensus
+   - historical precedent
+   - legal recognition
+   - policy adoption
+   - evaluator interpretation
+4. Downstream artifacts (theory, blueprints, prototypes, simulations, and chapters)
+   must **conform to this ontology**, not revise it.
+
+This ontology therefore functions as an **execution constraint**, not an analytical lens.
+All higher-layer reasoning (Substrate-1 and Substrate-2) is invalid if it violates
+any definition specified here.
 
 ---
 
 ## **0. Purpose**
 
-This file establishes the **foundational ontology** for NSU and DNI using **Searle’s Status-Function theory**.
-It replaces the earlier Four-Plane model and eliminates all category errors flagged by AI reviewers.
+This file establishes the **foundational ontology** for **SFEU and DNI**
+using **Searle’s Status-Function theory**.
 
-This ontology is the **base layer** of the dissertation, the architecture, and the NSU protocol.
+It replaces earlier multi-plane models and eliminates all category errors
+between institutions, protocols, and execution machinery.
+
+This ontology is the **base layer** of the dissertation,
+the architecture, and all execution blueprints.
 
 ---
 
 # **1. Ontological Core: Searle’s Status Functions**
 
-Institutions exist because humans use **collective intentionality** to assign **status functions**:
+Institutions exist because humans use **collective intentionality**
+to assign **status functions**:
 
-```
+``
 X counts as Y in context C
-```
+``
+
 
 Where:
 
-* **X** = brute fact (physical or digital artifact)
-* **Y** = institutional fact (the meaning assigned to X)
-* **C** = context (the system of rules enabling the assignment)
+- **X** = brute fact (physical or digital artifact)
+- **Y** = institutional fact (the meaning assigned to X)
+- **C** = context (the system of rules enabling the assignment)
 
-### Example:
+### Example
 
-```
+``
 Digital signature (X) counts as legal consent (Y) in Thai commercial law (C)
-```
-**External Framework Constraint**
-All external theories, awards, and evaluative frameworks must be treated as **subordinate descriptive overlays** on top of the core ontology.
+``
 
-* They may help interpret or communicate the ontology.
-* They may not redefine what counts as:
 
-  * brute fact
-  * institutional fact
-  * status-function
-  * context
-    Any conflict → ontology.md wins. 
+---
 
-This is the **universal structure** for every institutional act in governance.
+## **External Framework Constraint**
 
-Protocols **do not replace** institutions—they **enforce the mapping** between X and Y.
+All external theories, awards, and evaluative frameworks are
+**subordinate descriptive overlays** on top of this ontology.
+
+They may:
+- help interpret or communicate the ontology
+
+They may **not** redefine:
+- brute facts
+- institutional facts
+- status functions
+- contexts
+
+Any conflict → **ontology.md prevails**.
+
+Protocols **do not replace institutions** —
+they **enforce the mapping** between X and Y.
 
 ---
 
 # **2. Institutions as Status-Function Systems**
 
-Institutions operate through *status declarations*, backed by:
+Institutions operate through **status declarations**, backed by:
 
-* **Rules of recognition** (what counts)
-* **Rules of application** (how counting is performed)
-* **Rules of enforcement** (how violations are handled)
+- rules of recognition (what counts)
+- rules of application (how counting is performed)
+- rules of enforcement (how violations are handled)
 
-Every administrative action is fundamentally:
+Every administrative action is:
 
-* A **mapping** (from brute fact to institutional fact)
-* A **transition** (change in institutional state)
-* A **recording** (attestation and audit)
+- a **mapping** (X → Y)
+- a **transition** (institutional state change)
+- a **recording** (attestation and audit)
 
-This is the correct ontology for all governance processes.
+This is the correct ontology for governance.
 
 ---
 
 # **3. Role of Protocols in the Ontology**
 
 Protocols do **not** create institutions.
-Protocols **instantiate and enforce** the status-function rules.
+They **instantiate and enforce** status-function rules.
 
 They formalize:
 
-1. **What X must be** (digital signature format, identity binding)
-2. **How X is validated**
-3. **How Y is applied** (state-transition logic)
-4. **How context C is encoded** (legal conditions)
-5. **How exceptions are surfaced** (non-binary cases)
+1. what X must be
+2. how X is validated
+3. how Y is applied (state transition)
+4. how context C is bound
+5. how exceptions are surfaced
 
 Thus:
 
-```
-Protocols = execution machinery for status-function rules.
-```
+``
+Protocols = execution machinery for status-function rules
+``
 
-They **do not** define Y.
-They **do not** define C.
-They **only guarantee that when X claims to be Y-in-C, the claim is verifiable.**
+
+Protocols do **not** define Y.
+Protocols do **not** define C.
+They only guarantee that **claims are verifiable**.
 
 ---
 
-# **4. NSU Ontology (Formal Definition)**
+# **4. SFEU Ontology (Formal Definition)**
 
-The **National Service Unit (NSU)** is:
+A **Status-Function Execution Unit (SFEU)** is:
 
-> A **status-function execution engine** for administrative institutions, where protocol-defined rules ensure that X→Y transitions are applied consistently, transparently, and with verifiable attestation.
+> A **status-function execution engine** for administrative institutions,
+> where protocol-defined rules ensure that X → Y transitions
+> are applied deterministically, transparently,
+> and with verifiable attestation.
 
-NSU:
+An SFEU:
 
-* Does **not** legislate
-* Does **not** interpret law
-* Does **not** adjudicate
+- does **not** legislate
+- does **not** interpret law
+- does **not** adjudicate disputes
 
-NSU:
+An SFEU:
 
-* **Executes** administrative state transitions
-* Ensures **attestations are valid**
-* Ensures **records are immutable**
-* Ensures **workflow cannot deviate off-protocol**
+- executes administrative state transitions
+- validates attestations
+- produces immutable records
+- prevents off-protocol execution
 
-NSU is the **institutional machinery**, not the institution itself.
+An SFEU is **institutional machinery**, not an institution.
 
 ---
 
@@ -126,62 +172,54 @@ NSU is the **institutional machinery**, not the institution itself.
 
 A **Digital Native Institution (DNI)** is:
 
-> An institution where the status-function mappings (X→Y-in-C) are executed through **protocol-constrained mechanisms**, such that administrative discretion is minimized, auditability is maximized, and identity/document/money primitives are natively digital.
+> An institution whose status-function mappings (X → Y in C)
+> are executed through **protocol-constrained mechanisms**,
+> such that administrative discretion is minimized,
+> auditability is maximized,
+> and institutional primitives are natively digital.
 
-A DNI is **not** “digital government.”
-A DNI is **an institutional form** defined by:
+A DNI is **not** digital government.
 
-* Native digital identity binding
-* Native digital document integrity
-* Native programmable settlement
-* Protocol-governed state transitions
+A DNI is defined by:
 
-A DNI is the **institutional type**;
-NSU is the **infrastructure** enabling it.
+- native digital identity binding
+- native document integrity
+- native programmable settlement
+- protocol-governed state transitions
 
----
-
-# **6. Why This Ontology Fixes All Prior Category Errors**
-
-### Fix 1: Institutions vs. Protocols
-
-We now correctly distinguish:
-
-* **Institutional facts (Y)** → social
-* **Protocol execution (X→Y enforcement)** → technical
-
-The Four-Plane confusion disappears.
-
-### Fix 2: Representation Limits
-
-Protocol cannot encode **Y** or **C** fully.
-That is correct.
-Only encode what is necessary to apply **the declarative rule**.
-
-### Fix 3: Semantic Drift
-
-Semantic evolution happens in **context C**, not the protocol.
-Protocol only enforces validity of X.
-
-### Fix 4: Exceptions
-
-Exception = X cannot reliably count as Y-in-C.
-The ontology makes this explicit and unavoidable, not a bug.
+A DNI is the **institutional form**.
+An SFEU is the **execution infrastructure** enabling it.
 
 ---
 
-# **7. Application to NSU/DNI Dissertation**
+# **6. Why This Ontology Fixes Prior Category Errors**
 
-This ontology becomes the basis for:
+**Institutions vs Protocols**
+- Institutional facts (Y): social
+- Execution (X → Y): technical
 
-* Chapter 1 (the conceptual frame)
-* Chapter 2 (institutional literature review)
-* Chapter 3 (methodology)
-* NSU architecture
-* DNI theory
-* Corruption equilibrium model
-* MVP design
-* All future chapters
+**Representation limits**
+- Protocols encode execution, not meaning.
+
+**Semantic drift**
+- Drift occurs in context C, not in execution machinery.
+
+**Exceptions**
+- Failure of X to count as Y is explicit, not hidden.
+
+---
+
+# **7. Application to the SFEU/DNI Dissertation**
+
+This ontology underpins:
+
+- Chapter 1 (conceptual frame)
+- Chapter 2 (literature)
+- Chapter 3 (methodology)
+- SFEU architecture
+- DNI theory
+- Corruption Equilibrium Model
+- Prototypes and simulations
 
 This file is the **bedrock**.
 
@@ -189,11 +227,9 @@ This file is the **bedrock**.
 
 # **8. Frozen**
 
-This file is **frozen** for dissertation stability.
-Revisions only upon encountering structural contradictions.
+This ontology is **frozen**.
+Revisions only upon structural contradiction.
 
 ---
 
-**END OF FILE 1 — ontology.md**
-
-
+**END OF FILE — ontology.md**
