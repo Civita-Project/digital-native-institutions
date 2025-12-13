@@ -1,9 +1,9 @@
-### *Digital-Native Methodology (DNM) — v1.1*
-### *Substrate-Native Evidence Methodology for DNI Systems*
+# **Digital-Native Methodology (DNM) — v1.1**
+## *Substrate-Native Evidence Methodology for DNI Systems*
 
 ---
 
-## Epistemic Status (Non-Negotiable)
+## **Epistemic Status (Non-Negotiable)**
 
 Digital-Native Methodology (DNM) defines **how evidence is produced, represented,
 and exposed** in research concerning **Digital Native Institutions (DNI)**.
@@ -26,30 +26,28 @@ DNM governs **evidence handling only**.
 If any part of this file conflicts with Substrate-0′ artifacts,
 this file is invalid.
 
-Artifact instantiation constrained by declared technology stack
-
-
 ---
 
-## Dependency Order (Explicit)
+## **Dependency Order (Explicit)**
 
 DNM is strictly subordinate to:
 
-1. `ontology.md`
-2. `dni_theory.md`
-3. `dni_blueprint.md`
-4. `sfeu_blueprint.md`
-5. `sfeu_prototype.md`
-6. `corruption_equilibrium.md`
-7. `counterfactuals.md`
-8. `failure_case_canon.md`
-9. `substrate0_prime_purity_test.md`
+1. `computable_institutions.md`
+2. `ontology.md`
+3. `dni_theory.md`
+4. `dni_blueprint.md`
+5. `sfeu_blueprint.md`
+6. `sfeu_prototype.md`
+7. `corruption_equilibrium.md`
+8. `counterfactuals.md`
+9. `failure_case_canon.md`
+10. `substrate0_prime_purity_test.md`
 
 DNM **cannot introduce constraints upstream** of this list.
 
 ---
 
-## 0. Purpose
+## **0. Purpose**
 
 DNM answers one question only:
 
@@ -62,11 +60,13 @@ DNM replaces paper-era research methods **only where**:
 - evidence is natively digital,
 - audit reconstruction is possible.
 
-DNM does **not** apply outside DNI-eligible domains.
+**DNM applies only within Computable Institutions (CI).  
+Institutions whose execution remains discretionary, opaque, or non-computable
+fall explicitly outside the scope of this methodology.**
 
 ---
 
-## 1. Formal Definition
+## **1. Formal Definition**
 
 > **Digital-Native Methodology (DNM)** is an evidence methodology in which
 > all empirical claims are grounded in **protocol-executed institutional traces**,
@@ -79,11 +79,9 @@ DNM does **not** apply outside DNI-eligible domains.
 
 DNM is a **substrate-compatible epistemic mode**, not a research style.
 
-DNM applies only within Computable Institutions (CI), governing how evidence is produced and evaluated once institutional execution is protocol-bound.
-
 ---
 
-## 2. Methodological Axioms (Non-Derivable)
+## **2. Methodological Axioms (Non-Derivable)**
 
 ### **Axiom 1 — Status-Function Preservation**
 
@@ -170,11 +168,11 @@ Opaque evidence is methodologically invalid.
 
 ---
 
-## 3. Evidence Representations (SFEU-Compatible Only)
+## **3. Evidence Representations (SFEU-Compatible Only)**
 
 All DNM evidence must be representable using **SFEU primitives**:
 
-- identity bindings (MVLP scope),
+- identity bindings,
 - document & evidence lineage graphs,
 - attestation DAGs,
 - deterministic state-transition logs,
@@ -190,7 +188,7 @@ Evidence requiring:
 
 ---
 
-## 4. Evidence Classes Supported
+## **4. Evidence Classes Supported**
 
 ### **4.1 Institutional Execution Evidence**
 - protocol conformance rates
@@ -219,7 +217,7 @@ Evidence requiring:
 
 ---
 
-## 5. Role of DNM in the Dissertation
+## **5. Role of DNM in the Dissertation**
 
 DNM supplies the **evidence substrate** for:
 
@@ -237,7 +235,7 @@ DNM does **not**:
 
 ---
 
-## 6. Relationship to Counterfactuals
+## **6. Relationship to Counterfactuals**
 
 Counterfactuals define **what would differ**.  
 DNM defines **how such differences are observed**.
@@ -248,7 +246,7 @@ Without DNM-compliant evidence:
 
 ---
 
-## 7. Methodological Falsifiers
+## **7. Methodological Falsifiers**
 
 DNM is invalid if:
 
@@ -263,7 +261,7 @@ Any violation → **methodological impurity**.
 
 ---
 
-## 8. Boundary Conditions
+## **8. Boundary Conditions**
 
 DNM applies **only** to:
 
@@ -281,13 +279,12 @@ Applying DNM outside these bounds is a category error.
 
 ---
 
-## 9. Status
+## **9. Status**
 
 **Frozen (v1.1).**
 
 This file may change only if:
+- `computable_institutions.md` changes, or
 - `ontology.md` changes, or
-- `dni_theory.md` revises falsification logic, or
+- DNI falsification logic is revised, or
 - SFEU execution invariants change.
-
-
