@@ -18,6 +18,8 @@ The canon exists to answer one question only:
 
 > **What recurring failure patterns emerge when institutional facts are digitized without correct separation of ontology, execution, and governance?**
 
+The Failure Case Canon validates boundary failures of Computable Institutions (CI) by comparing systems that claim computability but violate DNI or SFEU constraints.
+
 This file operates at **Substrate-1** and is invalid if it contradicts:
 
 * `ontology.md`

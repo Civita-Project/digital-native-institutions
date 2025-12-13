@@ -27,6 +27,8 @@ It **is**:
 
 All claims made by this prototype must be **observable, reproducible, and falsifiable**.
 
+This prototype functions as an empirical falsification artifact for Computable Institutions (CI), by testing whether DNI theory, when enforced by SFEU execution, satisfies CI computability criteria under adversarial conditions.
+
 ---
 
 ## **1. DSR Framing (Explicit)**

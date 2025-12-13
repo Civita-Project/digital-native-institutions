@@ -20,6 +20,8 @@ Everything in this file is **chapter-ready**, **examiner-aware**, and **aligned 
 
 ## **Epistemic Positioning & Presentation Boundary**
 
+This dissertation is situated within the broader class of Computable Institutions (CI). Its theoretical focus is Digital Native Institutions (DNI), and its execution substrate is the Status-Function Execution Unit (SFEU).
+
 This dissertation is **constitutive institutional research**, not descriptive analysis.
 
 Accordingly:

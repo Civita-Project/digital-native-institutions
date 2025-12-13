@@ -20,6 +20,8 @@ CME claims **structural relocation of corrupt behavior** when discretionary exec
 
 If DNI conditions are not satisfied, CME is **undefined**.
 
+CME is defined only within Computable Institutions (CI) where DNI conditions are satisfied and execution is enforced by SFEU.
+
 ---
 
 ## **1. Ontological Grounding (Substrate-0′)**

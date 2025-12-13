@@ -79,6 +79,8 @@ DNM does **not** apply outside DNI-eligible domains.
 
 DNM is a **substrate-compatible epistemic mode**, not a research style.
 
+DNM applies only within Computable Institutions (CI), governing how evidence is produced and evaluated once institutional execution is protocol-bound.
+
 ---
 
 ## 2. Methodological Axioms (Non-Derivable)

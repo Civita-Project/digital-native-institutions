@@ -27,6 +27,8 @@ This blueprint operates at **Substrate-1 (institutional realization)** and is in
 * `dni_theory.md`
 * `computable_institutions_tech_stack.md`
 
+This blueprint specifies how Digital Native Institutions (DNI)—a realizable subclass of Computable Institutions (CI)—are instantiated architecturally without redefining institutional meaning.
+
 ---
 
 ## **1. Position in the System**

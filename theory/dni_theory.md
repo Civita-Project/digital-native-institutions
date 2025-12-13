@@ -40,6 +40,8 @@ must be resolved in favor of **Substrate-0′ integrity**.
 This theory therefore functions as an **execution constraint**
 on all downstream architectures, models, and empirical analyses.
 
+Digital Native Institutions (DNI) are a subclass of Computable Institutions (CI)—institutions whose status-functions are formally specifiable, executable, auditable, and falsifiable—where computability is achieved through native digital primitives.
+
 ---
 
 ## **0. Purpose**

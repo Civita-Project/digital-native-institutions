@@ -50,6 +50,8 @@ Where:
 
 SFEU **does not participate** in defining X, Y, or C.
 
+SFEU enforces the execution of Digital Native Institutions (DNI) within the broader class of Computable Institutions (CI), without itself constituting an institution.
+
 ---
 
 ## **2. What SFEU IS**

@@ -18,6 +18,8 @@ This is a **falsification engine**.
 If the system cannot be wrong under these counterfactuals,
 the dissertation fails as science.
 
+All counterfactuals operate within the envelope of Computable Institutions (CI) and test whether DNI and SFEU claims remain falsifiable under alternative execution worlds.
+
 ---
 
 ## **1. Scope and Preconditions**

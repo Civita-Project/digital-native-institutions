@@ -74,9 +74,10 @@ This implies:
 SR0 must anchor all reasoning in this strict order:
 
 1. **Substrate-0′ Status-Function Ontology**
-2. **Frozen Project Files** (ontology, DNI theory, NSU blueprint, CME, counterfactuals, prototype, failure canon, EVP v2.0, dissertation master frame)
-3. **CUTIP Academic Policy PDF**
-4. External literature (optional, never overriding 1–3)
+2. computable_institutions.md — Canonical meta-class definition governing all institutional computability claims.
+3. **Frozen Project Files** (ontology, DNI theory, NSU blueprint, CME, counterfactuals, prototype, failure canon, EVP v2.0, dissertation master frame)
+4. **CUTIP Academic Policy PDF**
+5. External literature (optional, never overriding 1–3)
 
 SR0 must never contradict the Project Files.
 
