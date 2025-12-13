@@ -1,320 +1,167 @@
-# **Computable Institutions — Technical Stack**
+# Computable Institutions — Canonical Technical Stack
 
-### *Version 1.0 (Constitutive, Execution-Bound)*
+## Epistemic Status
 
----
+This file defines a **canonical realization stack** for
+**Computable Institutions (CI)**.
 
-## **Epistemic Status**
+It does **not** define what a Computable Institution *is*.
+That definition is given in:
 
-This document specifies the **technical realization layer** for **Computable Institutions**.
+- `computable_institutions.md`
+- `ontology.md`
 
-It does **not** define institutional meaning, policy intent, or governance outcomes.
-It defines the **minimum technical primitives and boundaries** required to make
-**Digital Native Institutions (DNI)** *computable*, *verifiable*, and *falsifiable*.
+This stack specifies **how CI-compliant institutions may be instantiated**
+without violating CI invariants.
 
-Accordingly:
-
-1. All components listed here operate **below institutional meaning**.
-2. No component may:
-
-   * interpret law,
-   * infer intent,
-   * resolve ambiguity,
-   * or substitute human governance.
-3. This stack exists to **execute and attest** status-function mappings defined elsewhere.
-
-Any system claiming to be a Computable Institution **must map cleanly onto this stack**.
+Any system may use a different stack and still qualify as CI,
+provided all CI constraints are satisfied.
 
 ---
 
-## **1. Naming Resolution (Canonical)**
+## Dependency Order (Hard)
 
-To prevent future drift, the following terms are **fixed**:
+1. computable_institutions.md   (meta-class)
+2. ontology.md                  (Substrate-0′)
+3. dni_theory.md                (institutional type)
+4. sfeu_blueprint.md            (execution substrate)
 
-| Term                                      | Meaning                                                                           |
-| ----------------------------------------- | --------------------------------------------------------------------------------- |
-| **Digital Native Institution (DNI)**      | The *institutional form* defined by status-function rules executable via protocol |
-| **Computable Institution**                | A DNI that is *realized* using the technical stack defined in this file           |
-| **SFEU (Status-Function Execution Unit)** | The execution engine that enforces DNI rules                                      |
-| **Civita**                                | The ecosystem / deployment context in which multiple DNIs operate                 |
-
-**Key rule:**
-
-> *DNI is the theory. Computable Institution is the implementation class. SFEU is the execution machinery.*
-
-No term may collapse into another.
+This file is **downstream** of all the above.
 
 ---
 
-## **2. Stack Overview (Layered, Non-Interpretive)**
+## Purpose
 
-The Computable Institution stack consists of **nine strictly bounded layers**.
+This stack answers one question only:
 
-Each layer is:
+> What technical components are minimally required to instantiate
+> a **Digital Native Institution (DNI)** that qualifies as a
+> **Computable Institution (CI)**?
 
-* necessary,
-* non-substitutable,
-* non-interpretive,
-* and falsifiable.
-
----
-
-## **3. Layer 1 — Digital Identity**
-
-**Purpose**
-Bind institutional actions to **who** performed them.
-
-**Required properties**
-
-* cryptographic uniqueness
-* authentication
-* non-repudiation
-* revocability
-* temporal validity
-
-**Explicit limits**
-
-* does not infer intent
-* does not assign legal meaning
-* does not grant status by itself
-
-**Failure signature**
-
-* identity ambiguity → execution must fail
+It is a **realization guide**, not a definition.
 
 ---
 
-## **4. Layer 2 — Digital Documents & Evidence**
+## Stack Layers (CI-Constrained)
 
-**Purpose**
-Represent **what** is being claimed as X.
+### Layer 1 — Identity (Fact Attribution)
 
-**Required properties**
+- Cryptographic identity
+- Non-repudiation
+- Revocation
 
-* hash-based integrity
-* cryptographic signatures
-* provenance tracking
-* immutable lineage
-
-**Explicit limits**
-
-* does not interpret semantics
-* does not judge legal sufficiency
-
-**Failure signature**
-
-* unverifiable evidence → explicit exception
+CI constraint:
+Identity may attribute facts; it may not assign meaning.
 
 ---
 
-## **5. Layer 3 — Rule Representation (Declarative)**
+### Layer 2 — Documents & Evidence
 
-**Purpose**
-Encode **constitutive and procedural rules** in machine-verifiable form.
+- Content-addressed storage
+- Signature provenance
+- Immutable lineage
 
-**Acceptable forms**
-
-* text-based DSLs (e.g. CUE, Rego-like)
-* versioned, auditable rule sets
-* diff-able, human-readable constraints
-
-**Explicit limits**
-
-* rules express *conditions*, not meaning
-* no probabilistic inference
-* no hidden discretion
-
-**Failure signature**
-
-* rule conflict or ambiguity → execution halt
+CI constraint:
+Evidence integrity ≠ semantic validity.
 
 ---
 
-## **6. Layer 4 — Context Binding**
+### Layer 3 — Rule Representation
 
-**Purpose**
-Determine **which context C applies**.
+- Typed schemas
+- Deterministic rule DSLs
+- Versioned rule sets
 
-**Required properties**
-
-* jurisdiction selection
-* temporal versioning
-* scope limitation
-
-**Explicit limits**
-
-* no reinterpretation of law
-* no conflict resolution between statutes
-
-**Failure signature**
-
-* indeterminate context → explicit failure
+CI constraint:
+Rules express norms; they do not interpret cases.
 
 ---
 
-## **7. Layer 5 — Status-Function Execution (SFEU Core)**
+### Layer 4 — Context Binding
 
-**Purpose**
-Execute **X → Y-in-C** transitions.
+- Jurisdiction
+- Temporal validity
+- Rule version selection
 
-**Implemented by**
-
-* **SFEU (Status-Function Execution Unit)**
-
-**Required properties**
-
-* deterministic execution
-* invariant enforcement
-* explicit success or failure
-* no discretionary override
-
-**Explicit limits**
-
-* never defines Y
-* never redefines C
-* never “fixes” bad inputs
-
-**Failure signature**
-
-* invariant violation → logged rejection
+CI constraint:
+Context is selected, not inferred.
 
 ---
 
-## **8. Layer 6 — Exception Routing**
+### Layer 5 — Execution (SFEU)
 
-**Purpose**
-Handle cases where X **fails to count as Y-in-C**.
+- Deterministic state transitions
+- No discretion
+- Explicit failure
 
-**Required properties**
-
-* explicit failure signaling
-* structured exception output
-* governance handoff (outside protocol)
-
-**Explicit limits**
-
-* does not resolve disputes
-* does not suppress failure
-
-**Failure signature**
-
-* silent success = system invalid
+CI constraint:
+Execution enforces; it never decides.
 
 ---
 
-## **9. Layer 7 — Settlement & Obligation Execution**
+### Layer 6 — Exception Routing
 
-**Purpose**
-Execute **institutionally binding outcomes**.
+- Structured failure emission
+- Governance handoff
+- No silent override
 
-**Required properties**
-
-* machine-verifiable settlement
-* timestamped execution
-* traceable obligation fulfillment
-
-**Explicit limits**
-
-* no policy optimization
-* no redistribution logic
-* no discretionary adjustment
-
-**Failure signature**
-
-* settlement mismatch → audit alert
+CI constraint:
+Exceptions surface institutional limits; they do not resolve them.
 
 ---
 
-## **10. Layer 8 — Audit & Attestation Ledger**
+### Layer 7 — Settlement & Obligation
 
-**Purpose**
-Record **what happened**, not why.
+- Programmable consequences
+- Traceable outcomes
 
-**Required properties**
-
-* append-only logs
-* cryptographic attestations
-* independent verifiability
-
-**Explicit limits**
-
-* does not summarize meaning
-* does not judge outcomes
-
-**Failure signature**
-
-* non-reconstructible history → invalid system
+CI constraint:
+Settlement executes outcomes; it does not define justice.
 
 ---
 
-## **11. Layer 9 — Transport & Storage**
+### Layer 8 — Audit & Attestation
 
-**Purpose**
-Enable **open, inspectable persistence and transmission**.
+- Append-only logs
+- Independent verification
+- Reconstruction
 
-**Acceptable mechanisms**
-
-* open protocols (e.g. email)
-* content-addressed storage (e.g. IPFS-class)
-* protocol-agnostic addressing
-
-**Explicit limits**
-
-* transport ≠ authority
-* storage ≠ meaning
-
-**Failure signature**
-
-* opaque storage → audit failure
+CI constraint:
+Auditability is mandatory, not optional.
 
 ---
 
-## **12. Role of AI / RSI (Explicit Boundary)**
+### Layer 9 — Interpretation (Non-Binding)
 
-AI systems (including RSI):
+- Human analysis
+- RSI / AI explanation
+- Simulation and diagnostics
 
-* may assist humans in:
-
-  * inspection
-  * explanation
-  * simulation
-* **may not**:
-
-  * execute status-functions,
-  * override SFEU outcomes,
-  * create institutional facts.
-
-AI is **advisory only**.
+CI constraint:
+Interpretation has **zero execution authority**.
 
 ---
 
-## **13. Falsifiability Criteria**
+## What This Stack Forbids
 
-A system claiming to be a **Computable Institution** is falsified if:
+Any stack claiming CI **must not**:
 
-* execution outcomes cannot be reconstructed,
-* corruption does not relocate observably,
-* exceptions are silently bypassed,
-* protocol resolves ambiguity,
-* or execution requires discretionary override.
+- embed interpretation in execution
+- allow silent discretion
+- collapse DNI and SFEU
+- treat CI as a platform or product
+- treat AI as decision-making authority
 
----
-
-## **14. Relationship to DNI Theory**
-
-* DNI theory defines **what must be true**.
-* This stack defines **what must exist technically**.
-* SFEU enforces the boundary.
-
-No layer may contradict `ontology.md` or `dni_theory.md`.
+Violation → system is **not CI**, regardless of intent.
 
 ---
 
-## **15. Frozen**
+## Status
 
-This file is **frozen** unless:
+Frozen.
 
-* Substrate-0′ contradictions are found, or
-* DNI theory changes at the ontological level.
+This file may change only if:
 
-
+- CI definition changes,
+- DNI theory is revised,
+- or SFEU execution invariants change.
