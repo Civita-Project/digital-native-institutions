@@ -57,3 +57,62 @@ Provide the minimal conceptual grounding required to discuss institutions as rul
 
 * Establishes the *conceptual floor* shared by all later literatures
 * Makes later execution-level gaps legible without asserting solutions
+
+
+---
+
+## **2.2 Institutional Economics and Rule Enforcement**
+
+**Intent:**  
+Map institutional economics literature to the execution gap identified in Chapter 1, clarifying what these theories explain and where they structurally stop short of executional reliability.
+
+**In-scope:**
+- Institutions as rule systems governing behavior (e.g., North)
+- Enforcement, transaction costs, and institutional stability
+- Institutional drift over time under changing incentives
+- Polycentric governance as descriptive context for complexity, not as a solution
+
+**Explicit boundaries (must be stated in prose):**
+- Institutional economics explains incentives, constraints, and coordination
+- It does not specify how institutional facts are executed deterministically
+- It does not provide mechanisms for execution reproducibility or audit reconstruction
+
+**Out-of-scope:**
+- Welfare economics and efficiency optimization
+- Market design or regulatory reform proposals
+- Empirical claims of policy effectiveness
+- Claims about optimal institutional design or reform success
+
+**Role in chapter flow:**
+- Demonstrates that dominant economic theories account for behavior and rules
+- Makes visible the missing execution primitive without critiquing intent or rigor
+
+---
+
+## **2.3 Digitization, E-Government, and Administrative IT**
+
+**Intent:**  
+Map digitization and e-government literature to the execution/representation distinction, clarifying why administrative IT reforms often fail to stabilize institutional facts despite gains in efficiency and access.
+
+**In-scope:**
+- Digitization as representation of actions, documents, and procedures
+- E-government goals: efficiency, transparency, service delivery
+- Persistence of discretion behind digital interfaces
+- Distinction between procedural automation and institutional outcome determination
+- Audit and reconstruction limits in digitally mediated systems
+
+**Explicit boundaries (must be stated in prose):**
+- Digitization constrains processes, not the execution of institutional facts
+- Validation rules and workflows do not guarantee institutional validity
+- Digital records do not ensure reconstructible execution paths
+
+**Out-of-scope:**
+- Country rankings or benchmark comparisons
+- Implementation success stories or best-practice narratives
+- Evaluation of specific technologies or system architectures
+- Reform recommendations or alternative digital designs
+
+**Role in chapter flow:**
+- Demonstrates that digitization addresses how tasks are performed
+- Makes explicit why execution instability persists under digital reform
+- Prepares the ground for sociotechnical explanations without endorsing them
