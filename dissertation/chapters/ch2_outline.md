@@ -177,3 +177,33 @@ Differentiate algorithmic and code-based governance approaches from execution-ce
 - Clarifies why formalization alone does not stabilize institutional facts
 - Prevents conflation of execution with automated decision-making
 - Prepares the ground for introducing execution-focused frameworks in later chapters
+
+---
+
+## **2.6 Corruption as Strategic Behavior under Discretion**
+
+**Intent:**  
+Map corruption literature as an analytical account of strategic behavior that emerges under discretionary and opaque execution environments, without moral judgment, measurement claims, or introduction of equilibrium models.
+
+**In-scope:**
+- Corruption framed as rational, strategic behavior given discretionary execution
+- Exploitation of opacity, weak enforcement, and ambiguous status assignment
+- Coordination, signaling, and risk-sharing dynamics among participants
+- Persistence of corruption despite procedural reform and digitization
+
+**Explicit boundaries (must be stated in prose):**
+- Analytical framing only; no moral evaluation or justification
+- Discretion treated as a structural precondition, not an outcome of incentives
+- Corruption explains behavior *within* execution gaps; it does not explain why gaps exist
+- No equilibrium, migration, or systemic model introduced here
+
+**Out-of-scope:**
+- Cultural or national-character explanations
+- Ethical condemnation or normative prescriptions
+- Anti-corruption policy toolkits or reform programs
+- Measurement frameworks, indices, rankings, or empirical proxies
+
+**Role in chapter flow:**
+- Positions corruption literature as descriptive of behavior under discretion
+- Demonstrates why corruption persists absent executional constraints
+- Prepares a clean transition to the formal literature gap without solution leakage
