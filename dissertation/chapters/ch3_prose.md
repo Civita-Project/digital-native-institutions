@@ -89,3 +89,21 @@ This framing imposes strict constraints on admissible corruption evidence. Evide
 Importantly, this section does not advance any equilibrium model or predictive claim regarding corruption dynamics. It establishes only the methodological precondition for treating corruption as a variable subject to falsification rather than as an explanatory remainder. By constraining corruption analysis to execution-observable phenomena, the dissertation ensures that later claims about institutional robustness or failure can be evaluated without recourse to moral interpretation or cultural generalization.
 
 This formalization prepares the ground for subsequent analysis by clarifying what counts as valid corruption evidence and what does not. It ensures that any claim regarding corruption within execution-bound institutions is anchored to observable institutional behavior and evaluated under criteria fixed in advance.
+
+
+---
+
+### **3.6 Scope Conditions and Domain Eligibility**
+
+This section specifies the **scope conditions** under which the methodological framework established in this chapter is valid, and delineates the domains to which execution-centered analysis may be applied without category error. Its purpose is to prevent over-extension of the methodology and to make explicit the boundaries within which subsequent claims are evaluated.
+
+The methodology articulated in this dissertation applies only to institutional domains in which status-function claims are asserted to be **formally specifiable and execution-bound**. Such domains are characterized by administrative acts whose validity depends on whether defined conditions are satisfied and recorded, rather than on discretionary judgment or interpretive deliberation. Within these domains, institutional outcomes can be expressed as state transitions with explicit success, failure, or exception conditions, rendering them amenable to execution-level analysis.
+
+By contrast, domains in which institutional meaning is constituted through adjudication, moral reasoning, or political deliberation fall outside the scope of this methodology. In such cases, interpretation is not a methodological defect but a constitutive feature of the institution itself. Applying an execution-centered framework to these domains would conflate enforcement with judgment and would therefore violate the analytical separations established earlier in the dissertation. This exclusion is methodological rather than normative: it reflects the limits of what can be rendered falsifiable under execution-bound constraints.
+
+The scope conditions articulated here also constrain generalization. Claims evaluated under this framework do not extend to institutions whose execution remains opaque, discretionary, or informally governed, even if those institutions employ digital tools. The presence of information technology or automated workflows is insufficient to bring an institution within scope; eligibility depends on whether institutional facts are created and maintained through formally constrained execution rather than interpretive mediation.
+
+These boundary conditions are necessary to preserve methodological integrity. Without them, apparent successes or failures could be misattributed to the framework when they in fact arise from domain mismatch. By explicitly declaring where the methodology applies and where it does not, the dissertation ensures that subsequent analysis can be assessed on its own terms and that failure outside these bounds is not treated as theoretical refutation.
+
+With scope and domain eligibility fixed, the methodological framework is now fully bounded. The following section closes the chapter by summarizing the formal readiness achieved without introducing design commitments or evaluative claims.
+
