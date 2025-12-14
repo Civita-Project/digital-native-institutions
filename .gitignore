@@ -14,14 +14,12 @@ __pycache__/
 *.pyc
 node_modules/
 dist/
-build/
 *.log
 
 # ===========================
 # PDF / Compiled Artifacts
 # (generated dissertation outputs)
 # ===========================
-*.pdf
 *.aux
 *.out
 *.toc
