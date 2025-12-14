@@ -243,3 +243,30 @@ Formally state the structural absence revealed by the preceding literature mappi
 - Marks the transition from literature mapping to methodological framing
 
 ---
+
+## **2.8 Chapter Boundary and Transition**
+
+**Intent:**  
+Close the literature review by reaffirming its analytical limits and establish the procedural necessity for the subsequent chapter, without introducing solutions, constructs, or empirical claims.
+
+**In-scope:**
+- Explicit statement that Chapter 2 mapped existing literature relative to the execution-centered problem identified in Chapter 1
+- Confirmation that no reviewed literature resolves executional reliability as a formal object
+- Reiteration that explanatory gaps persist despite coverage of incentives, digitization, sociotechnical dynamics, algorithmic governance, and corruption behavior
+- Procedural justification for moving to a formal and methodological framing in the next chapter
+
+**Explicit boundaries (must be stated in prose):**
+- This chapter does not propose solutions, systems, or institutional designs
+- No new theoretical constructs or hierarchies are introduced
+- No empirical validation or case material is presented
+
+**Out-of-scope:**
+- Claims of contribution, originality, or impact
+- Previews of mechanisms, architectures, or implementation paths
+- References to specific institutional models or contexts (including Thailand)
+
+**Role in dissertation flow:**
+- Marks the completion of literature mapping and boundary setting
+- Preserves analytical continuity from Chapter 1 to Chapter 3
+- Prepares the reader for a formal methodological turn without anticipation or advocacy
+
