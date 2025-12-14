@@ -207,3 +207,39 @@ Map corruption literature as an analytical account of strategic behavior that em
 - Positions corruption literature as descriptive of behavior under discretion
 - Demonstrates why corruption persists absent executional constraints
 - Prepares a clean transition to the formal literature gap without solution leakage
+
+---
+
+## **2.7 Literature Gap (Formal Statement)**
+
+**Intent:**  
+Formally state the structural absence revealed by the preceding literature mapping, without asserting novelty, proposing solutions, or introducing new constructs.
+
+**In-scope:**
+- Identification of a missing analytical primitive: execution of institutional facts as a first-class object
+- Absence of frameworks that simultaneously:
+  - define status-function execution formally,
+  - constrain discretion deterministically,
+  - preserve auditability and post hoc reconstructibility,
+  - remain falsifiable under adverse conditions
+- Clarification that existing literatures address adjacent dimensions
+  (incentives, procedures, artifacts, behavior) but not execution itself
+
+**Explicit boundaries (must be stated in prose):**
+- The gap is structural and compositional, not disciplinary or author-specific
+- No claim of comprehensive novelty or “first” contribution
+- No mechanisms, systems, or architectures introduced
+- No empirical claims or validation attempted here
+
+**Out-of-scope:**
+- Claims of contribution, superiority, or impact
+- Synthesis or integration of existing theories as a solution
+- Design principles, implementation details, or policy prescriptions
+- Case material or contextual application (e.g., Thailand)
+
+**Role in chapter flow:**
+- Consolidates findings from Sections 2.2–2.6 into a single bounded absence
+- Provides a clean handoff to Chapter 3 without solution leakage
+- Marks the transition from literature mapping to methodological framing
+
+---
