@@ -76,3 +76,16 @@ By fixing falsification logic at this stage, the dissertation precludes post hoc
 
 --- 
 
+### **3.5 Corruption as an Observable Institutional Variable**
+
+This section formalizes the treatment of **corruption** within the dissertation as an execution-observable institutional variable rather than a moral judgment, cultural trait, or outcome proxy. Its purpose is to specify the conditions under which corruption can be meaningfully analyzed within an execution-centered methodological framework.
+
+In conventional institutional research, corruption is often approached as a latent phenomenon inferred from perception surveys, reported incidents, or aggregate outcome discrepancies. Such approaches rely on interpretive inference and are therefore incompatible with claims that depend on deterministic execution. Where institutional correctness is asserted to arise from protocol-bound execution, corruption cannot be treated as an unobservable residue explained post hoc; it must be defined in terms of **where and how institutional rules are violated, bypassed, or selectively enforced** at execution points.
+
+Within this dissertation, corruption is treated as a **structural property of institutional execution environments**. It is observable not through intent or motivation, but through deviations in execution behavior relative to formally specified status-function transitions. These deviations may manifest as discretionary overrides, suppressed failures, informal exception handling, or off-protocol actions that alter institutional outcomes without producing corresponding execution traces. What renders such behavior analyzable is not its ethical characterization, but its detectability within an execution-bounded evidentiary regime.
+
+This framing imposes strict constraints on admissible corruption evidence. Evidence must be capable of demonstrating how an institutional outcome was produced or altered relative to the declared execution rules. Indicators that rely solely on reported experience, perceived integrity, or macro-level correlations are excluded, as they cannot discriminate between execution-level failure and governance- or policy-level effects. Corruption is therefore operationalized only insofar as it produces observable distortions in execution traces, exception patterns, or evidentiary lineage.
+
+Importantly, this section does not advance any equilibrium model or predictive claim regarding corruption dynamics. It establishes only the methodological precondition for treating corruption as a variable subject to falsification rather than as an explanatory remainder. By constraining corruption analysis to execution-observable phenomena, the dissertation ensures that later claims about institutional robustness or failure can be evaluated without recourse to moral interpretation or cultural generalization.
+
+This formalization prepares the ground for subsequent analysis by clarifying what counts as valid corruption evidence and what does not. It ensures that any claim regarding corruption within execution-bound institutions is anchored to observable institutional behavior and evaluated under criteria fixed in advance.
