@@ -1,4 +1,4 @@
-# Chapter 1 — Institutional Failure as a Problem of Status-Function Execution
+# Chapter 1 Outline — Institutional Failure as a Problem of Status-Function Execution
 
 ## Chapter Intent
 Establish that systemic administrative failure originates from unstable execution of institutional facts (status-function assignments), not from corruption, inefficiency, or insufficient digitization, thereby motivating the need for a computable institutional approach without introducing solutions.
