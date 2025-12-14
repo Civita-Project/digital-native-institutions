@@ -58,3 +58,21 @@ Importantly, DNM does not assert that execution-native evidence is universally s
 
 By introducing DNM at this stage, the dissertation fixes the evidentiary standards prior to any empirical or artifact-based analysis. Subsequent chapters are evaluated against these standards, not retrofitted to them. This ordering ensures that later observations can function as genuine tests of the theory rather than as post hoc illustrations.
 
+---
+
+### **3.4 Falsification Logic and Counterfactual Structure**
+
+This section specifies the **falsification logic** governing execution-bound institutional claims and explains why counterfactual reasoning is structurally required rather than methodologically optional. Its purpose is to fix, in advance, the conditions under which claims made in later chapters would be considered false.
+
+When institutional validity is asserted to depend on deterministic execution, falsification cannot be established through interpretive disagreement or outcome dissatisfaction. A claim is falsified only if the execution behavior observed under defined conditions contradicts what the claim requires. This necessitates a falsification framework that operates directly on execution traces and that distinguishes theory failure from implementation failure without recourse to narrative explanation.
+
+Counterfactual structure provides this framework. Execution-bound claims implicitly assert not only what should occur in the observed world, but also what would occur in relevant alternative worlds. These alternatives are not hypothetical narratives; they are formally constrained variations in execution conditions, rule context, or observability. A claim is meaningful only if it implies a detectable difference between the observed world and at least one counterfactual world that is admissible under the same institutional constraints.
+
+Accordingly, this dissertation treats counterfactuals as **structural discriminators**. Each counterfactual class specifies a distinct way in which execution could deviate from what is claimed while remaining within the domain of computable institutions. The purpose of these counterfactuals is not to imagine different policy choices or social outcomes, but to test whether execution-level invariants hold when confronted with alternative but permissible execution conditions. If a claim cannot be differentiated across such counterfactuals, it is not falsifiable and is therefore methodologically invalid.
+
+This approach also enforces a strict separation between theory failure and implementation failure. Where execution deviates from the claim due to hidden discretion, suppressed failure, or interpretive substitution, the failure is attributed to violation of execution constraints rather than to the underlying theory. Conversely, where execution conforms to all declared constraints but the predicted institutional behavior does not materialize, the theory itself is falsified. Counterfactual structure is what makes this distinction observable rather than rhetorical.
+
+By fixing falsification logic at this stage, the dissertation precludes post hoc adjustment of success criteria. Claims advanced later are evaluated against counterfactual conditions specified in advance, and failure is treated as informative rather than exceptional. This orientation is necessary to preserve the epistemic integrity of execution-centered institutional research and to ensure that subsequent chapters function as tests rather than demonstrations.
+
+--- 
+
