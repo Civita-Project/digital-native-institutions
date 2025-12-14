@@ -146,3 +146,34 @@ Acknowledge sociotechnical explanations of institutional behavior while delimiti
 - Complements digitization and economic literatures by explaining observed persistence of drift
 - Clarifies why sociotechnical insight alone cannot resolve execution instability
 - Prepares the transition to formal execution-focused frameworks in later chapters
+
+---
+
+## **2.5 Algorithmic Governance and Protocol Studies**
+
+**Intent:**  
+Differentiate algorithmic and code-based governance approaches from execution-centered institutional analysis, clarifying why decision-making automation and rule formalization do not constitute executional reliability.
+
+**In-scope:**
+- Algorithmic governance as the formalization and automation of rules and decisions
+- “Code is law” discourse as a contrast class for institutional enforcement
+- Distinction between algorithmic interpretation and protocol enforcement
+- Verification and compliance checking versus judgment and outcome selection
+- Formal invariants contrasted with optimization or adaptive logic
+
+**Explicit boundaries (must be stated in prose):**
+- Algorithms and code-based systems interpret inputs and select outcomes
+- Protocols enforce declared outcomes but do not decide cases
+- Execution must remain non-interpretive and non-adaptive
+- Governance authority cannot be delegated to code or automation
+
+**Out-of-scope:**
+- AI ethics and normative debates about automation
+- Machine learning, probabilistic, or adaptive decision systems
+- Autonomous governance or “smart” institutions
+- Evaluation of specific platforms, blockchains, or technical stacks
+
+**Role in chapter flow:**
+- Clarifies why formalization alone does not stabilize institutional facts
+- Prevents conflation of execution with automated decision-making
+- Prepares the ground for introducing execution-focused frameworks in later chapters
