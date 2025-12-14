@@ -116,3 +116,33 @@ Map digitization and e-government literature to the execution/representation dis
 - Demonstrates that digitization addresses how tasks are performed
 - Makes explicit why execution instability persists under digital reform
 - Prepares the ground for sociotechnical explanations without endorsing them
+
+
+---
+
+## **2.4 Sociotechnical Systems and Institutional Drift**
+
+**Intent:**  
+Acknowledge sociotechnical explanations of institutional behavior while delimiting their explanatory scope, showing why such accounts describe the manifestation of discretion and drift without providing mechanisms for executional stability.
+
+**In-scope:**
+- Institutions as sociotechnical systems combining formal rules, artifacts, and human practice
+- How informal workarounds and embedded assumptions emerge under discretionary execution
+- Sociotechnical accounts of institutional drift and divergence between formal rules and outcomes
+- Opacity arising from under-specified execution rather than from information absence
+
+**Explicit boundaries (must be stated in prose):**
+- Sociotechnical explanations describe *how* discretion manifests, not *why* it structurally exists
+- Drift is amplified by human–artifact interaction but originates in unconstrained execution
+- Executional reliability cannot be achieved through cultural alignment or informal practice
+
+**Out-of-scope:**
+- Cultural determinism or national character explanations
+- Actor–network theory expansion or generalized STS critique
+- Normative evaluation of institutional legitimacy or power
+- Claims that technology or social engineering can replace governance
+
+**Role in chapter flow:**
+- Complements digitization and economic literatures by explaining observed persistence of drift
+- Clarifies why sociotechnical insight alone cannot resolve execution instability
+- Prepares the transition to formal execution-focused frameworks in later chapters
